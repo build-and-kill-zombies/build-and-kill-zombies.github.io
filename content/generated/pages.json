@@ -1,0 +1,1074 @@
+[
+  {
+    "enabled": true,
+    "slug": "codes",
+    "pageType": "codes",
+    "navLabel": "Codes",
+    "title": "Build and Kill Zombies Codes (September 2026)",
+    "description": "Build and Kill Zombies codes for September 2026 with active rewards, expired codes, exact redemption steps, and fixes when a Roblox code does not work.",
+    "keywords": [
+      "Build and Kill Zombies codes",
+      "Build and Kill Zombies working codes",
+      "Build and Kill Zombies active codes",
+      "Build and Kill Zombies redeem codes"
+    ],
+    "primaryKeyword": "Build and Kill Zombies codes",
+    "secondaryKeywords": [
+      "Build and Kill Zombies working codes",
+      "Build and Kill Zombies active codes",
+      "Build and Kill Zombies codes September 2026",
+      "Build and Kill Zombies redeem codes",
+      "Build and Kill Zombies code rewards"
+    ],
+    "searchIntent": "Redeem current working codes for free in-game rewards",
+    "priority": "P0",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Reported working September 2026",
+      "heading": "Build and Kill Zombies Codes",
+      "lead": "ZEUS, IAMPRO, MOREFRIENDS, CashDrop, and COMMUNITY are the Build and Kill Zombies codes reported working at the latest source check. The full list with rewards and redemption steps is below, right after the table."
+    },
+    "sections": [
+      {
+        "id": "working-codes",
+        "heading": "Working Build and Kill Zombies Codes",
+        "intro": "Last source check: September 26, 2026. Codes are reported working by major Roblox code trackers on that date; a few trackers disagree on individual statuses, so treat any single code as time-sensitive.",
+        "table": {
+          "caption": "Reported working Build and Kill Zombies codes (September 2026)",
+          "columns": [
+            "Code",
+            "Reward",
+            "Requirement or Status",
+            "Last Checked"
+          ],
+          "rows": [
+            [
+              "ZEUS",
+              "50 Lightning Tokens",
+              "Reported working",
+              "September 26, 2026"
+            ],
+            [
+              "IAMPRO",
+              "Free rewards",
+              "Requires 1,000 Studs best distance",
+              "September 26, 2026"
+            ],
+            [
+              "MOREFRIENDS",
+              "2 Passenger Seats",
+              "Reported working",
+              "September 26, 2026"
+            ],
+            [
+              "CashDrop",
+              "500 Cash",
+              "Reported working",
+              "September 26, 2026"
+            ],
+            [
+              "COMMUNITY",
+              "1,000 Cash + Small Engine + Small Tank",
+              "Reported working",
+              "September 26, 2026"
+            ]
+          ]
+        },
+        "paragraphs": [
+          "Copy each code exactly as shown, including capitalization. If one of these Build and Kill Zombies codes fails, check the troubleshooting list further down before assuming the list is stale, because two of the most common failures are requirements, not expiry: IAMPRO needs a 1,000 Studs best distance, and codes will not redeem before the tutorial is finished."
+        ],
+        "links": [
+          {
+            "label": "Beginner Guide",
+            "slug": "beginner-guide",
+            "description": "How to earn your first Studs and Cash."
+          },
+          {
+            "label": "Tier List",
+            "slug": "tier-list",
+            "description": "What to upgrade once the rewards land."
+          }
+        ]
+      },
+      {
+        "id": "how-to-redeem",
+        "heading": "How to Redeem Build and Kill Zombies Codes",
+        "intro": "Redemption happens inside the shop, not the main menu, and there is one prerequisite that trips up brand-new players.",
+        "steps": [
+          {
+            "heading": "Finish the tutorial",
+            "description": "The code box stays locked until the opening tutorial is complete, so new accounts must get through it before any redemption works."
+          },
+          {
+            "heading": "Open the Shop",
+            "description": "Walk to the shop stall in the starting area and open it. This is where Build and Kill Zombies redeem codes are entered, not the settings menu."
+          },
+          {
+            "heading": "Scroll to the Community Codes box",
+            "description": "Scroll down inside the shop until you reach the Community Codes section with its code input field."
+          },
+          {
+            "heading": "Paste one code",
+            "description": "Paste a single code exactly as written. Codes are case sensitive, so ZEUS and zeus are not treated the same."
+          },
+          {
+            "heading": "Redeem and collect",
+            "description": "Press redeem and the reward is credited straight to your account. Open your build or inventory to put the Cash, engine, tank, or seats to work immediately."
+          }
+        ]
+      },
+      {
+        "id": "expired-codes",
+        "heading": "Expired Codes",
+        "paragraphs": [
+          "These Build and Kill Zombies codes were reported active recently but no longer redeem at the latest check. They stay listed so you do not waste time retrying them after an update."
+        ],
+        "table": {
+          "caption": "Recently expired codes",
+          "columns": [
+            "Code",
+            "Reward",
+            "Status",
+            "Last Checked"
+          ],
+          "rows": [
+            [
+              "CYBERHACK",
+              "Free rewards",
+              "Expired",
+              "September 26, 2026"
+            ],
+            [
+              "1x1x1x1",
+              "Free rewards",
+              "Expired",
+              "September 26, 2026"
+            ],
+            [
+              "HACKER",
+              "Free rewards",
+              "Expired",
+              "September 26, 2026"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "not-working",
+        "heading": "Why a Code Might Not Work",
+        "intro": "Most failed redemptions fall into one of five buckets. Work down the list and the cause is usually obvious within a minute.",
+        "subsections": [
+          {
+            "heading": "Wrong spelling or extra spaces",
+            "paragraphs": [
+              "Codes are case sensitive and reject trailing spaces. Paste directly from this page instead of retyping, and check that nothing extra followed the code into the input box."
+            ]
+          },
+          {
+            "heading": "Tutorial requirement",
+            "paragraphs": [
+              "The Community Codes box in the shop does not accept anything until the tutorial is finished. If every code fails on a fresh account, this is why."
+            ]
+          },
+          {
+            "heading": "Distance requirement",
+            "paragraphs": [
+              "IAMPRO only redeems once your best distance reaches 1,000 Studs. If the code is rejected on a new account, drive a few runs first and try again after the distance counter climbs."
+            ]
+          },
+          {
+            "heading": "Code expired",
+            "paragraphs": [
+              "Roblox codes retire without warning, often at the next update. A code that worked last week can be gone today; the expired table above tracks the most recent casualties."
+            ]
+          },
+          {
+            "heading": "Already redeemed",
+            "paragraphs": [
+              "Each code works once per account. If you redeemed it in an earlier session, the game declines it even though the code is still active for other players."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rewards",
+        "heading": "What the Rewards Include",
+        "paragraphs": [
+          "Current Build and Kill Zombies code rewards cover four useful categories. Cash, like the 500 from CashDrop or the 1,000 from COMMUNITY, pays for rolls and upgrades at the machines. Engines and tanks, such as the Small Engine and Small Tank from COMMUNITY, are direct car parts you can bolt on instead of rolling for them.",
+          "Passenger Seats from MOREFRIENDS add seats to the car, and Lightning Tokens from ZEUS are the currency of the current Zeus Event, usable on event content while it lasts. Rewards land in your account the moment a code redeems, so redeem before a long grinding session rather than after."
+        ]
+      },
+      {
+        "id": "new-codes",
+        "heading": "Where New Codes Appear First",
+        "paragraphs": [
+          "New codes appear at updates, events, and player milestones. The game's official page on Roblox and the developer's community spaces are where they surface first, and event codes like ZEUS tend to arrive alongside the event announcement itself.",
+          "Code status can change after game updates. This page records the status found at the latest source check shown above; for a newly released update, also compare against the official Roblox game page."
+        ],
+        "links": [
+          {
+            "label": "Build and Kill Zombies wiki home",
+            "slug": "",
+            "description": "Codes, builds, and guides in one place."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are the working Build and Kill Zombies codes?",
+        "answer": "ZEUS, IAMPRO, MOREFRIENDS, CashDrop, and COMMUNITY were the codes reported working at the September 26, 2026 source check. The working table at the top of this page shows the rewards and requirement notes recorded at that check."
+      },
+      {
+        "question": "How do I redeem Build and Kill Zombies codes?",
+        "answer": "Finish the tutorial, open the Shop stall, scroll to the Community Codes box, paste one code exactly as written, and press redeem. The reward is credited immediately."
+      },
+      {
+        "question": "Why is IAMPRO not working?",
+        "answer": "IAMPRO requires a best distance of 1,000 Studs before it will redeem. If your best distance is below that, the code is rejected even though it is still active. Drive more runs and retry once the requirement is met."
+      },
+      {
+        "question": "Are Build and Kill Zombies codes case-sensitive?",
+        "answer": "Yes. Enter each code exactly as listed, with matching capitalization and no extra spaces, or the game treats it as invalid."
+      },
+      {
+        "question": "When do new codes release?",
+        "answer": "There is no fixed schedule. Codes typically arrive with game updates, events like the current Zeus Event, and player milestones, so check the official Roblox page after each update and compare it against the source check date shown above this page's table."
+      }
+    ],
+    "relatedSlugs": [
+      "beginner-guide",
+      "tier-list",
+      "best-build"
+    ],
+    "lastReviewed": "2026-09-29"
+  },
+  {
+    "enabled": true,
+    "slug": "tier-list",
+    "pageType": "guide",
+    "navLabel": "Tier List",
+    "title": "Build and Kill Zombies Tier List: Parts, Skills & Supports",
+    "description": "Build and Kill Zombies tier list for parts, Skills, Supports, fuel, engines, and upgrade priorities. See what to prioritize for stronger Roblox runs.",
+    "keywords": [
+      "Build and Kill Zombies tier list",
+      "Build and Kill Zombies best parts",
+      "Build and Kill Zombies skills",
+      "Build and Kill Zombies Supports"
+    ],
+    "primaryKeyword": "Build and Kill Zombies tier list",
+    "secondaryKeywords": [
+      "Build and Kill Zombies best parts",
+      "Build and Kill Zombies skills",
+      "Build and Kill Zombies Supports",
+      "Build and Kill Zombies upgrade priority",
+      "Build and Kill Zombies best upgrades"
+    ],
+    "searchIntent": "Decide which parts, Skills, and Supports deserve resources first",
+    "priority": "P0",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Parts, Skills, and Supports ranked",
+      "heading": "Build and Kill Zombies Tier List",
+      "lead": "This Build and Kill Zombies tier list ranks what actually improves runs: Fuel for the distance you want, an Engine that can move your chassis, permanent Luck, Wheels, and the Supports that turn a driving car into a killing one."
+    },
+    "sections": [
+      {
+        "id": "quick-ranking",
+        "heading": "Build and Kill Zombies Tier List: Quick Ranking",
+        "intro": "The summary first. This is an editorial priority ranking based on how each system behaves in real runs, not an official in-game rating.",
+        "table": {
+          "caption": "Build and Kill Zombies upgrade priority at a glance",
+          "columns": [
+            "Priority",
+            "System or Upgrade",
+            "Best For",
+            "Why It Ranks Here"
+          ],
+          "rows": [
+            [
+              "S",
+              "Fuel for the target run",
+              "Any run longer than a short hop",
+              "Distance ends when the tank does, so fuel caps everything else"
+            ],
+            [
+              "S",
+              "Engine that can move the chassis",
+              "Heavy or growing builds",
+              "An underpowered engine wastes every other part on the car"
+            ],
+            [
+              "S",
+              "Early permanent Luck",
+              "Long-term accounts",
+              "Luck improves rolls permanently, so early levels pay for the whole account"
+            ],
+            [
+              "A",
+              "Wheels and chassis balance",
+              "Cars that drift, tip, or crawl",
+              "Stability decides whether speed is usable at all"
+            ],
+            [
+              "A",
+              "A reliable Support or weapon",
+              "Cars that run but barely kill",
+              "Kills convert distance into Cash; without them runs pay half"
+            ],
+            [
+              "B",
+              "More Support",
+              "Builds with room and Cash to spare",
+              "Extra support capacity only pays once the first weapons earn it back"
+            ],
+            [
+              "B",
+              "Gold Roll and premium rolls",
+              "Late-game accounts",
+              "Expensive progression that makes sense once cheap upgrades are done"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "how-we-rank",
+        "heading": "How We Rank Build and Kill Zombies Parts and Skills",
+        "paragraphs": [
+          "Rankings weigh four things: whether the upgrade is permanent, whether the car can function without it, how much it extends run distance, and how early it starts paying off. A part that the car cannot leave the spawn without beats a part that only shines late, and anything permanent outranks anything replaceable.",
+          "The game does not publish exact stats for every part, so this Build and Kill Zombies tier list deliberately ranks by role and timing rather than pretending at numbers that nobody can verify. When updates shuffle the machines, the ranking gets re-reviewed against how the new parts actually behave."
+        ]
+      },
+      {
+        "id": "s-tier",
+        "heading": "S Tier: Highest-Priority Upgrades",
+        "intro": "S tier is where Cash goes first. These three decide whether a run works at all.",
+        "subsections": [
+          {
+            "heading": "Fuel for the target run",
+            "paragraphs": [
+              "Distance is the scoreboard in Build and Kill Zombies, and the tank is the leash. Fuel that matches the run you are attempting turns every other upgrade into usable value; a monster engine with a tiny tank just changes where you strand yourself. Match the tank to the route before upgrading anything flashy."
+            ]
+          },
+          {
+            "heading": "Engine that can move the current chassis",
+            "paragraphs": [
+              "The engine's job is to haul whatever you have bolted together. As Blocks accumulate and the chassis grows, an engine that was fine yesterday starts struggling. Upgrade the engine when weight goes up, not because a bigger number exists."
+            ]
+          },
+          {
+            "heading": "Early permanent Luck progression",
+            "paragraphs": [
+              "Luck is a Skill, which means it stays on the account while parts come and go. Investing in Luck early improves every future roll from the CAR PARTS and SUPPORTS machines, which compounds quietly across the whole life of the account. Few purchases in the game keep paying that long."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a-tier",
+        "heading": "A Tier: Strong Next Upgrades",
+        "intro": "A tier turns a functional car into a profitable one.",
+        "subsections": [
+          {
+            "heading": "Wheels and chassis balance",
+            "paragraphs": [
+              "Speed means nothing if the car tips, drifts into hordes, or crawls up slopes. Wheels and chassis layout are the difference between a fast car and a controllable one, and controllable cars drive further. If the car feels unstable at speed, this is the fix."
+            ]
+          },
+          {
+            "heading": "A reliable Support or weapon",
+            "paragraphs": [
+              "Kills pay. A car that runs the whole map but kills nothing collects distance rewards and leaves the rest behind. One dependable Support, placed where it can actually reach zombies, converts driving time into Cash at a much better rate."
+            ]
+          },
+          {
+            "heading": "More Support when extra weapons actually help",
+            "paragraphs": [
+              "More Support raises support capacity, which only matters once you have supports worth carrying. It is a strong purchase for mature builds running multiple weapons, and a wasted one for a car still deciding on its first."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b-tier",
+        "heading": "B Tier and Late-Game Choices",
+        "paragraphs": [
+          "B tier is timing, not quality. Gold Roll and other premium progression options cost more than early accounts can spare, but they compress the grind once the cheap upgrades are done. Situational extra parts from the CAR PARTS machine, niche wheels, spare Fuels, and heavier Blocks, belong here too: useful in the right build, dead Cash in the wrong one.",
+          "The test for any B tier purchase is simple: name the run where it pays for itself. If the answer is vague, the S and A tier rows above are still the better home for your Cash."
+        ],
+        "links": [
+          {
+            "label": "Build and Kill Zombies beginner guide",
+            "slug": "beginner-guide",
+            "description": "New to the game? Start here before spending Cash on late-game upgrades."
+          },
+          {
+            "label": "Build and Kill Zombies wiki home",
+            "slug": "",
+            "description": "Codes, guides, and boss updates in one place."
+          }
+        ]
+      },
+      {
+        "id": "parts-vs-supports-vs-skills",
+        "heading": "CAR PARTS vs SUPPORTS vs Skills",
+        "intro": "Three machines, three different jobs. This is the distinction most often mixed up by new players.",
+        "table": {
+          "caption": "The three progression systems compared",
+          "columns": [
+            "System",
+            "What It Gives You",
+            "When to Invest"
+          ],
+          "rows": [
+            [
+              "CAR PARTS",
+              "Blocks, Engines, Wheels, and Fuels: the physical pieces the car is built from",
+              "Continuously; the car cannot run or grow without parts"
+            ],
+            [
+              "SUPPORTS",
+              "Weapons and add-ons, separate from car parts, that let the car kill zombies",
+              "Once the car runs; supports convert distance into kills and Cash"
+            ],
+            [
+              "Skills",
+              "Permanent account upgrades like Luck, More Support, and Gold Roll",
+              "Start early with Luck; Skills survive every rebuild and improve all future rolls"
+            ]
+          ]
+        },
+        "paragraphs": [
+          "A useful habit: after every run, check which of the three is holding the others back. No fuel means the engine idles, no supports means distance pays partially, and low Luck means every roll underperforms. Buy the bottleneck, not the shiniest machine output."
+        ]
+      },
+      {
+        "id": "beginner-priority",
+        "heading": "Best Upgrade Priority for Beginners",
+        "paragraphs": [
+          "New players can follow this order for the first several sessions without regret."
+        ],
+        "steps": [
+          {
+            "heading": "Roll CAR PARTS until the car runs",
+            "description": "Engine, fuel, wheels: get a chassis that moves under its own power before anything else."
+          },
+          {
+            "heading": "Match fuel to distance",
+            "description": "Extend the tank as soon as runs start ending because the car ran dry rather than because of zombies."
+          },
+          {
+            "heading": "Add one dependable Support",
+            "description": "Pick a weapon you can place where it hits zombies often, not the biggest output on the board."
+          },
+          {
+            "heading": "Fix stability",
+            "description": "Wheels and chassis layout next, so the speed you have is speed you can steer."
+          },
+          {
+            "heading": "Put early Cash into Luck",
+            "description": "Permanent progression beats temporary parts; early Luck upgrades every roll that follows."
+          },
+          {
+            "heading": "Revisit the machines each run",
+            "description": "Compare what the CAR PARTS and SUPPORTS machines offer against the tier table and buy the bottleneck."
+          }
+        ],
+        "links": [
+          {
+            "label": "Best build guide",
+            "slug": "best-build",
+            "description": "Turn the priority list into a complete car."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the best thing to upgrade first in Build and Kill Zombies?",
+        "answer": "Fuel and an engine that can move your chassis, in whatever order your current build is weakest. Distance ends when the tank or the engine gives out, so those two sit at the top of the tier list, with early Luck close behind because it is permanent."
+      },
+      {
+        "question": "Are Skills better than car parts?",
+        "answer": "They are different: parts make the current car work, Skills make every future roll and run better. Luck, More Support, and Gold Roll are permanent, so once the car can run, putting early Cash into Luck usually outearns another replaceable part."
+      },
+      {
+        "question": "When should I roll the SUPPORTS machine?",
+        "answer": "As soon as your car can drive a full route, because supports are how driving turns into kills and Cash. Roll the CAR PARTS machine first only if the car cannot yet run reliably."
+      },
+      {
+        "question": "Is Gold Roll worth it?",
+        "answer": "For late-game accounts with Cash to spare, premium rolls like Gold Roll compress the grind. For new players it is a B tier purchase: the cheaper permanent upgrades, especially Luck, deliver more per Cash spent."
+      }
+    ],
+    "relatedSlugs": [
+      "best-build",
+      "beginner-guide",
+      "codes"
+    ],
+    "lastReviewed": "2026-09-29"
+  },
+  {
+    "enabled": true,
+    "slug": "best-build",
+    "pageType": "guide",
+    "navLabel": "Best Build",
+    "title": "Build and Kill Zombies Best Build: Car Setup & Upgrades",
+    "description": "Build and Kill Zombies best build guide with car setup, engine, fuel, wheels, Supports, Skills, upgrade order, and mistakes to avoid on Roblox.",
+    "keywords": [
+      "Build and Kill Zombies best build",
+      "Build and Kill Zombies best car build",
+      "Build and Kill Zombies car setup",
+      "Build and Kill Zombies upgrade order"
+    ],
+    "primaryKeyword": "Build and Kill Zombies best build",
+    "secondaryKeywords": [
+      "Build and Kill Zombies best car build",
+      "Build and Kill Zombies best setup",
+      "Build and Kill Zombies car setup",
+      "Build and Kill Zombies upgrade order",
+      "how to build a good car Build and Kill Zombies"
+    ],
+    "searchIntent": "Get a concrete car setup and upgrade order that survives longer runs",
+    "priority": "P0",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Full car setup path",
+      "heading": "Build and Kill Zombies Best Build",
+      "lead": "The Build and Kill Zombies best build is a working chain, not one part: an Engine that can move your chassis, Fuel matched to the run, stable Wheels, a Support placed to actually hit zombies, and permanent Skills improving every roll behind it."
+    },
+    "sections": [
+      {
+        "id": "quick-setup",
+        "heading": "Build and Kill Zombies Best Build: Quick Setup",
+        "intro": "Five lines, in order. Each row only works when the one above it is already true.",
+        "table": {
+          "caption": "Best build quick setup order",
+          "columns": [
+            "Order",
+            "Slot",
+            "What Good Looks Like"
+          ],
+          "rows": [
+            [
+              "1",
+              "Engine",
+              "Enough power to move the current chassis at full weight, not the biggest number available"
+            ],
+            [
+              "2",
+              "Fuel",
+              "A tank sized for the run you are attempting, since distance ends when fuel does"
+            ],
+            [
+              "3",
+              "Wheels and chassis",
+              "Stable at top speed; the car steers, climbs, and does not tip into hordes"
+            ],
+            [
+              "4",
+              "Support placement",
+              "Weapons and add-ons positioned where they reach zombies instead of covering one blind side"
+            ],
+            [
+              "5",
+              "Skills",
+              "Permanent progression, starting with Luck, so every future roll gets better"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "starter-car",
+        "heading": "Best Starter Car Build",
+        "paragraphs": [
+          "The tutorial hands you the pieces of a first car, and the starter build is about finishing that loop cleanly rather than optimizing. Get an engine mounted, attach a fuel tank, put wheels on the chassis, and add the first Support. That is a complete car: it runs, it burns fuel over distance, and it kills.",
+          "Resist upgrading any single slot to maximum during the tutorial phase. The starter loop exists to teach the build area and earn your first Cash and Studs, and a balanced starter car earns faster than a lopsided one that dies or strands early. Save the deep upgrades for the setup order below."
+        ]
+      },
+      {
+        "id": "engine-fuel",
+        "heading": "Engine and Fuel: Make the Build Actually Run",
+        "paragraphs": [
+          "Engine and Fuel are a pair, and the Build and Kill Zombies best build always treats them as one decision. The engine has to move the chassis you have actually assembled, and Blocks are heavy: a car that grew three pieces heavier needs engine attention even if nothing else changed. An underpowered engine shows up as sluggish acceleration and hills you cannot climb.",
+          "Fuel is the leash on the whole run. Distance, which is what pays Studs, ends when the tank does, so a tank that runs dry halfway to your target wastes everything mounted behind it. The practical rule: size the tank for the route, then make the engine capable of hauling the weight over that route. When either changes, re-check the other."
+        ]
+      },
+      {
+        "id": "wheels-chassis",
+        "heading": "Wheels, Blocks and Chassis Layout",
+        "paragraphs": [
+          "Blocks are the body of the car, and how they spread weight matters as much as how many you have. A tall, top-heavy chassis tips; a long, flat one tracks straight and survives contact with hordes better. Wheels carry that layout: enough of them to bear the weight, positioned so the car does not sag at one end.",
+          "The symptom of a layout problem is easy to spot: the car drifts when it should turn straight, or dips and scrapes when it leaves the spawn area. Fix layout with wheel placement and Block redistribution before buying power, because extra engine force on an unstable chassis just makes the crashes faster."
+        ]
+      },
+      {
+        "id": "supports",
+        "heading": "Best SUPPORTS and Weapon Placement",
+        "paragraphs": [
+          "The SUPPORTS machine rolls weapons and add-ons that are separate from the CAR PARTS machine, and the distinction matters: parts make the car run, supports make it kill. Kills are what turn distance into full Cash rewards, so a car that runs beautifully but carries no real support is earning a fraction of what it could.",
+          "Placement decides whether a support earns its slot. Weapons that cover one side leave the other side free for zombies, and rear coverage matters more than most players expect. Spread coverage so the car has an answer from every angle, and remember that More Support, the Skill, expands how much you can carry once the first weapons are already pulling their weight."
+        ]
+      },
+      {
+        "id": "skills",
+        "heading": "Skills for a Better Long-Term Build",
+        "paragraphs": [
+          "Skills are the account-level layer of the Build and Kill Zombies best build. Luck improves what the machines give you, which quietly upgrades every CAR PARTS and SUPPORTS roll for the rest of the account's life. More Support expands carrying capacity, and Gold Roll is a premium progression option for accounts that have outgrown the cheap upgrades.",
+          "The reason Skills rank so high for a long-term build is simple: parts are replaceable, Skills are not. Every Cash point into Luck keeps paying after the car it was earned with has been scrapped and rebuilt twice. Start with Luck early, add More Support when your weapon loadout justifies it, and leave Gold Roll until the rest of the account is mature."
+        ]
+      },
+      {
+        "id": "upgrade-order",
+        "heading": "Build and Kill Zombies Upgrade Order",
+        "intro": "Diagnose first, then buy. Each symptom points at one slot.",
+        "steps": [
+          {
+            "heading": "No engine or the car barely moves",
+            "description": "Fix the engine first. Nothing else on the car matters until the chassis moves under its own power."
+          },
+          {
+            "heading": "Runs end short and quiet",
+            "description": "That is fuel. Extend the tank to match the distance you are attempting before blaming the zombies."
+          },
+          {
+            "heading": "The car is unstable at speed",
+            "description": "Wheels and chassis layout. Rebalance weight and wheel placement before adding any more power."
+          },
+          {
+            "heading": "Survives but kills poorly",
+            "description": "Supports. Add or reposition a weapon so coverage actually reaches the zombies you drive past."
+          },
+          {
+            "heading": "Rolls keep disappointing",
+            "description": "Skills. Luck upgrades every future CAR PARTS and SUPPORTS roll, which is the account-level fix."
+          }
+        ],
+        "links": [
+          {
+            "label": "Build and Kill Zombies tier list",
+            "slug": "tier-list",
+            "description": "Rank the next purchase before you make it."
+          }
+        ]
+      },
+      {
+        "id": "mistakes",
+        "heading": "Common Build Mistakes",
+        "bullets": [
+          "Maxing one slot while another sits empty, usually a huge engine on a three-wheel chassis.",
+          "Ignoring fuel size, then blaming difficulty for runs that end because the tank ran dry.",
+          "Stacking all weapons on one side, leaving a blind zone zombies learn about before you do.",
+          "Rolling SUPPORTS before the car can complete a route, buying weapons for a car that cannot drive.",
+          "Spending every Cash point on replaceable parts while permanent Skills like Luck stay untouched."
+        ]
+      },
+      {
+        "id": "longer-runs",
+        "heading": "Best Build for Longer Runs",
+        "paragraphs": [
+          "Long runs multiply everything: distance pays more Studs, but fuel burns longer and one layout flaw ends the trip. The build answer is the same chain, scaled up: bigger tank matched by a bigger engine, a chassis that stays stable at the new weight, and support coverage that can handle sustained contact.",
+          "Boss timers complicate long runs, because the countdown does not care how far from spawn you are. Before pushing distance, read the boss guide so the run does not end at the worst possible moment."
+        ],
+        "links": [
+          {
+            "label": "Boss guide and boss timer",
+            "slug": "bosses",
+            "description": "What to do before NEXT BOSS IN reaches zero."
+          },
+          {
+            "label": "Build and Kill Zombies wiki home",
+            "slug": "",
+            "description": "Every guide in one place."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the best build in Build and Kill Zombies?",
+        "answer": "A complete chain: an engine that can move your current chassis, fuel sized for the run, stable wheels and chassis layout, supports placed for full coverage, and permanent Skills like Luck improving every roll. No single part makes a best build; the chain does."
+      },
+      {
+        "question": "What should I upgrade first?",
+        "answer": "Whatever breaks the chain first. For most new players that means getting a working engine, then matching fuel to run distance, then one reliable support. The upgrade order section above turns each symptom into the right purchase."
+      },
+      {
+        "question": "Engine or fuel first?",
+        "answer": "Engine first if the car cannot move its own weight, fuel first if runs end short. They are one decision: the engine hauls the chassis and the fuel feeds the route, and the weaker of the two caps the run."
+      },
+      {
+        "question": "When should I roll SUPPORTS?",
+        "answer": "Once the car can complete a full route. Supports convert driving into kills and Cash, so they come after the car runs but before deep upgrades to speed or armor-style parts."
+      },
+      {
+        "question": "What Skills should I prioritize?",
+        "answer": "Luck first, because it improves every future roll from both machines and is permanent. More Support comes next once you run multiple weapons, and Gold Roll is a late-game option for accounts with Cash to spare."
+      }
+    ],
+    "relatedSlugs": [
+      "tier-list",
+      "beginner-guide",
+      "bosses"
+    ],
+    "lastReviewed": "2026-09-29"
+  },
+  {
+    "enabled": true,
+    "slug": "beginner-guide",
+    "pageType": "guide",
+    "navLabel": "Beginner Guide",
+    "title": "Build and Kill Zombies Beginner Guide: How to Play",
+    "description": "Build and Kill Zombies beginner guide explaining how to play, roll CAR PARTS and SUPPORTS, build a first car, drive, earn Cash, use codes, and upgrade Skills.",
+    "keywords": [
+      "Build and Kill Zombies beginner guide",
+      "how to play Build and Kill Zombies",
+      "Build and Kill Zombies first car",
+      "Build and Kill Zombies tutorial"
+    ],
+    "primaryKeyword": "Build and Kill Zombies beginner guide",
+    "secondaryKeywords": [
+      "how to play Build and Kill Zombies",
+      "Build and Kill Zombies first car",
+      "Build and Kill Zombies tutorial",
+      "Build and Kill Zombies CAR PARTS",
+      "Build and Kill Zombies SUPPORTS",
+      "Build and Kill Zombies Skills"
+    ],
+    "searchIntent": "Learn the game loop and a concrete first-session route",
+    "priority": "P0",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "First-session route",
+      "heading": "Build and Kill Zombies Beginner Guide",
+      "lead": "This Build and Kill Zombies beginner guide follows the real loop: roll CAR PARTS, build the car, roll SUPPORTS, drive, earn Cash, then upgrade Skills. The first ten minutes below get a new account to its first working car."
+    },
+    "sections": [
+      {
+        "id": "first-10-minutes",
+        "heading": "Build and Kill Zombies Beginner Guide: First 10 Minutes",
+        "intro": "A quick route for a brand-new account. Follow it in order; each step unlocks the next.",
+        "steps": [
+          {
+            "heading": "Finish the tutorial",
+            "description": "The tutorial walks the build area once and unlocks the shop's Community Codes box, so it gates both building and code rewards."
+          },
+          {
+            "heading": "Redeem the working codes",
+            "description": "COMMUNITY alone gives 1,000 Cash plus a Small Engine and Small Tank, which is a serious head start on the first car."
+          },
+          {
+            "heading": "Roll the CAR PARTS machine",
+            "description": "Spend opening Cash on rolls until you have an engine, a fuel tank, and wheels, the minimum for a drivable chassis."
+          },
+          {
+            "heading": "Assemble the car in the build area",
+            "description": "Attach engine, tank, and wheels to the chassis. It does not need to be pretty; it needs to run."
+          },
+          {
+            "heading": "Roll SUPPORTS and add one weapon",
+            "description": "One support that hits zombies converts driving into kills and much better Cash."
+          },
+          {
+            "heading": "Drive the first route",
+            "description": "Push distance until the car runs dry or the horde wins, then return and compare what failed first."
+          }
+        ],
+        "links": [
+          {
+            "label": "Working codes list",
+            "slug": "codes",
+            "description": "Current codes with rewards and redeem steps."
+          }
+        ]
+      },
+      {
+        "id": "how-works",
+        "heading": "How Build and Kill Zombies Works",
+        "paragraphs": [
+          "Build and Kill Zombies runs a loop with two halves. In the base area, machines and the build area: the CAR PARTS machine rolls Blocks, Engines, Wheels, and Fuels, the SUPPORTS machine rolls weapons and add-ons, and Cash pays for it all. Out on the road, the driving half: distance and kills earn Cash and Studs, and Studs track your best distance, which some code rewards check.",
+          "The two halves feed each other. A better car drives further and kills more, which earns more Cash, which buys better rolls. Skills like Luck sit above the loop permanently, improving what the machines hand out."
+        ]
+      },
+      {
+        "id": "roll-machines",
+        "heading": "How to Roll CAR PARTS and SUPPORTS",
+        "paragraphs": [
+          "The CAR PARTS machine is the physical car: Blocks form the chassis, the Engine moves it, the fuel Tank feeds it, and Wheels carry it. Early rolls should aim for the minimum drivable set, engine plus tank plus wheels, before chasing anything bigger.",
+          "The SUPPORTS machine is a separate roll pool for weapons and add-ons. New players often skip it and discover a car that drives the whole map while killing nothing, which pays poorly. One early support roll, one usable weapon, is enough to double the value of the same distance.",
+          "Luck, the Skill, improves what both machines give you over time, which is why a small early investment in it keeps paying long after the current car is scrapped."
+        ]
+      },
+      {
+        "id": "first-car",
+        "heading": "How to Build Your First Working Car",
+        "steps": [
+          {
+            "heading": "Start from the chassis",
+            "description": "Lay Blocks into a shape that is longer than it is tall. Low builds track straight; tall builds tip."
+          },
+          {
+            "heading": "Mount the engine",
+            "description": "Attach the engine so it can move the weight you have actually placed, not the weight you hope to have."
+          },
+          {
+            "heading": "Connect fuel",
+            "description": "A tank sized for a short first route. Early runs are for learning, not record attempts."
+          },
+          {
+            "heading": "Add wheels where the weight is",
+            "description": "Distribute wheels so the car sits level. A sagging end means a wheel belongs there."
+          },
+          {
+            "heading": "Place one support",
+            "description": "Put the first weapon where it covers the most angles. Front and sides matter more than looks."
+          },
+          {
+            "heading": "Test before committing",
+            "description": "A short drive reveals handling problems while they are still cheap to fix."
+          }
+        ]
+      },
+      {
+        "id": "drive-earn",
+        "heading": "How to Drive and Earn Cash",
+        "paragraphs": [
+          "Driving is where the loop pays. Distance builds Studs, kills and progress pay Cash, and both feed the machines back at base. The habit that matters most early is completing routes: a moderate run that ends on purpose with a working car earns more over an evening than record attempts that keep wrecking.",
+          "Push distance in steps. When a route ends because the tank ran dry, fuel is the upgrade. When it ends because zombies stopped the car, supports and layout are. Letting each failed run point at its bottleneck is the whole skill of the game, and it works from the very first drive."
+        ]
+      },
+      {
+        "id": "controls",
+        "heading": "Build and Kill Zombies Controls",
+        "paragraphs": [
+          "Driving and movement follow the on-screen prompts in the current game interface, so check the control hints shown during your first session rather than memorizing a fixed key list. Building and rolling happen through the on-screen machine and build menus rather than hidden hotkeys, and Roblox games can remap individual keys per update, so the in-game settings and controls panel is always the reliable reference.",
+          "Nothing in the core loop requires memorized shortcuts: rolling parts, assembling the car, and driving are all handled through the visible interfaces, which is why the first-10-minutes route above works without a key list."
+        ]
+      },
+      {
+        "id": "upgrade-first",
+        "heading": "What to Upgrade First",
+        "paragraphs": [
+          "The first upgrades follow the chain: engine if the car struggles to move, fuel if runs end short, wheels and layout if it handles badly, supports if it survives but earns slowly. After those four jobs are covered, put Cash into Luck, the Skill that improves every future roll from both machines.",
+          "The tier list ranks the full system-by-system priority with reasoning, and the best build page turns it into a complete car setup once the basics are stable."
+        ],
+        "links": [
+          {
+            "label": "Build and Kill Zombies tier list",
+            "slug": "tier-list",
+            "description": "Parts, Skills, and Supports ranked."
+          },
+          {
+            "label": "Best build guide",
+            "slug": "best-build",
+            "description": "The full car setup and upgrade order."
+          }
+        ]
+      },
+      {
+        "id": "codes-timing",
+        "heading": "When to Redeem Codes",
+        "paragraphs": [
+          "Redeem codes immediately after the tutorial, because the COMMUNITY code hands over a Small Engine and Small Tank that slot straight into the first car, and CashDrop's 500 Cash funds early rolls. Rewards sit unused while you grind manually, so there is no reason to wait.",
+          "Codes require a 1,000 Studs best distance in some cases, like IAMPRO, which new accounts will not meet on day one; note it and come back after a few routes. The codes page keeps the full current list and the redeem steps."
+        ],
+        "links": [
+          {
+            "label": "All Build and Kill Zombies codes",
+            "slug": "codes",
+            "description": "Working list, rewards, and troubleshooting."
+          }
+        ]
+      },
+      {
+        "id": "mistakes",
+        "heading": "Beginner Mistakes to Avoid",
+        "bullets": [
+          "Skipping the SUPPORTS machine entirely, then wondering why full distance pays so little.",
+          "Rolling for big parts before the minimum drivable set exists, engine, tank, and wheels.",
+          "Building tall, top-heavy first cars that tip at the first turn instead of long, flat ones.",
+          "Ignoring the tutorial's code box and missing free Cash and parts on day one.",
+          "Spending all Cash on replaceable parts while Luck, the permanent roll improver, stays at zero.",
+          "Retrying the same failed build after every wreck instead of fixing the bottleneck the run pointed at."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do I play Build and Kill Zombies?",
+        "answer": "Roll parts from the CAR PARTS machine, build them into a car in the build area, roll SUPPORTS for weapons, then drive routes to earn Cash and Studs. Cash funds better rolls and Skills like Luck improve them permanently."
+      },
+      {
+        "question": "How do I build my first car?",
+        "answer": "Start with a long, flat Block chassis, mount an engine that can move that weight, connect a fuel tank, add wheels where the weight sits, and place one support. That is a complete working car; everything after is upgrading the same five slots."
+      },
+      {
+        "question": "What should I do first in Build and Kill Zombies?",
+        "answer": "Finish the tutorial, redeem the working codes, then roll CAR PARTS until you have engine, tank, and wheels. The first-ten-minutes route at the top of this guide walks through all of it in order."
+      },
+      {
+        "question": "How do I earn Cash fast as a beginner?",
+        "answer": "Complete routes with a car that can both drive and kill. Distance pays Studs and kills pay Cash, so one working support on a car that finishes its route outearns a faster car that wrecks halfway."
+      },
+      {
+        "question": "What are CAR PARTS and SUPPORTS?",
+        "answer": "CAR PARTS rolls the physical pieces, Blocks, Engines, Wheels, and Fuels. SUPPORTS rolls weapons and add-ons from a separate machine. A working build needs both: parts so the car runs, supports so it kills."
+      }
+    ],
+    "relatedSlugs": [
+      "codes",
+      "tier-list",
+      "best-build",
+      "bosses"
+    ],
+    "lastReviewed": "2026-09-29"
+  },
+  {
+    "enabled": true,
+    "slug": "bosses",
+    "pageType": "guide",
+    "navLabel": "Bosses",
+    "title": "Build and Kill Zombies Boss Guide & Boss Timer",
+    "description": "Build and Kill Zombies boss guide with boss timer prep, vehicle priorities, survivability tips, and current event notes for Roblox boss runs.",
+    "keywords": [
+      "Build and Kill Zombies boss guide",
+      "Build and Kill Zombies boss timer",
+      "Build and Kill Zombies Zeus event",
+      "NEXT BOSS IN Build and Kill Zombies"
+    ],
+    "primaryKeyword": "Build and Kill Zombies boss guide",
+    "secondaryKeywords": [
+      "Build and Kill Zombies boss timer",
+      "Build and Kill Zombies bosses",
+      "Build and Kill Zombies Zeus event",
+      "Build and Kill Zombies Zeus boss",
+      "NEXT BOSS IN Build and Kill Zombies"
+    ],
+    "searchIntent": "Prepare for boss encounters and survive boss fights",
+    "priority": "P0",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Timer awareness and prep",
+      "heading": "Build and Kill Zombies Boss Guide",
+      "lead": "This Build and Kill Zombies boss guide covers the NEXT BOSS IN countdown, what to fix before it reaches zero, and the build priorities that keep a car alive when the boss arrives."
+    },
+    "sections": [
+      {
+        "id": "quick-answer",
+        "heading": "Build and Kill Zombies Boss Guide: Quick Answer",
+        "paragraphs": [
+          "NEXT BOSS IN is the countdown the HUD shows before a boss encounter, and it is the game's own signal for when to stop pushing distance and start preparing. Use the window to check your Engine and Fuel against the current chassis, confirm SUPPORTS coverage, and spend Cash on rolls or upgrades while it is still safe to drive. The sections below cover how to read the timer, what the current Zeus Event adds, and which build priorities matter before a boss run."
+        ]
+      },
+      {
+        "id": "timer",
+        "heading": "How the Build and Kill Zombies Boss Timer Works",
+        "paragraphs": [
+          "NEXT BOSS IN is displayed in the HUD during play, counting down to the next boss encounter. The safe way to use it is as your personal schedule: farm early in the window while the risk is low, then stop pushing distance as the clock runs down, so the final minutes go to preparation instead of one more risky route.",
+          "The exact spawn behavior, where the boss appears and whether timers pause between runs, is the kind of detail that changes with updates. The reliable part is the countdown itself: it is visible, it is the game's own signal, and every preparation decision should be measured against it."
+        ]
+      },
+      {
+        "id": "zeus-event",
+        "heading": "Zeus Event and Zeus Boss Fight",
+        "paragraphs": [
+          "Update 3 brought the Zeus Event, the game's current limited-time event, with a Zeus Boss Fight as its headline content. The event adds Lightning Tokens as its own currency, and the ZEUS code redeems for 50 of them, which makes that code the fastest free entry into the event's rewards.",
+          "Public event tracking has shown the Zeus Event window running into early October 2026, but event end dates shift with updates, so check the official Roblox game page for the current status before planning around it. Boss specifics like exact health or attack patterns are not published by the developer, and this guide sticks to what is confirmed rather than inventing numbers."
+        ]
+      },
+      {
+        "id": "before-zero",
+        "heading": "What to Do Before NEXT BOSS IN Reaches Zero",
+        "paragraphs": [
+          "Run this checklist in order while the countdown is still comfortable."
+        ],
+        "bullets": [
+          "Confirm the engine can still move the current chassis weight before the encounter starts.",
+          "Check the fuel tank against the routes you actually drive, so a short tank does not cut a session short.",
+          "Reposition weapons so coverage reaches every side of the car, not just the front.",
+          "Bank early: roll and spend Cash before the final stretch so nothing important is left half-bought.",
+          "Compare your current setup against the tier list and buy the weakest link while there is still time to test it."
+        ]
+      },
+      {
+        "id": "build-priorities",
+        "heading": "Best Build Priorities for Boss Runs",
+        "paragraphs": [
+          "Boss encounters reward preparation more than any single part. Engine and Fuel come first, because the car has to complete routes while carrying every upgrade you have bolted on. After that, SUPPORTS coverage does the heavy lifting: weapons that hit reliably from the placement you can actually build are worth more than one oversized roll in the wrong slot, and a chassis and wheel layout that stays stable at full weight keeps the whole setup working.",
+          "Skills stay valuable here too: Luck improves the rolls that upgrade everything else before the fight, not during it. The best build page holds the full setup chain, and the tier list ranks exactly which upgrade closes which gap."
+        ],
+        "links": [
+          {
+            "label": "Best build guide",
+            "slug": "best-build",
+            "description": "The complete car setup chain."
+          },
+          {
+            "label": "Build and Kill Zombies tier list",
+            "slug": "tier-list",
+            "description": "What to upgrade with the prep window's Cash."
+          }
+        ]
+      },
+      {
+        "id": "mistakes",
+        "heading": "Common Boss Run Mistakes",
+        "bullets": [
+          "Rolling new parts minutes before the encounter and never testing whether the car still runs.",
+          "Leaving Cash unspent during the window, then facing the boss with upgrades still on the board.",
+          "Covering only one side of the car with weapons while the other angles stay open.",
+          "Skipping the fuel check, so the run ends because the tank ran dry rather than in the fight.",
+          "Spending the entire preparation window on risky distance attempts instead of finishing the build."
+        ]
+      },
+      {
+        "id": "next",
+        "heading": "Keep Improving Your Boss Odds",
+        "paragraphs": [
+          "Boss preparation is build preparation done early. The beginner guide covers the fundamentals if the loop itself still feels shaky, and the wiki home keeps every guide and the current codes one click away."
+        ],
+        "links": [
+          {
+            "label": "Beginner guide",
+            "slug": "beginner-guide",
+            "description": "The first-session route, step by step."
+          },
+          {
+            "label": "Build and Kill Zombies wiki home",
+            "slug": "",
+            "description": "Codes, builds, and every guide."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How does the boss timer work?",
+        "answer": "The HUD shows NEXT BOSS IN, a visible countdown to the next boss encounter. Treat it as your preparation schedule: farm early in the window, then spend the final stretch rolling, upgrading, and testing the build before it reaches zero."
+      },
+      {
+        "question": "What is the current boss event?",
+        "answer": "The Zeus Event from Update 3 is the current limited-time event, featuring the Zeus Boss Fight and Lightning Tokens as event currency. Event windows shift with updates, so confirm the live status on the official Roblox game page."
+      },
+      {
+        "question": "What should I upgrade before a boss?",
+        "answer": "Whatever the chain is missing: engine power for the current chassis weight, fuel for the routes you drive, support coverage on every side, and any upgrade rolls still sitting unspent. The tier list ranks these systems in order."
+      },
+      {
+        "question": "What should I do when NEXT BOSS IN is low?",
+        "answer": "Stop pushing for distance and use what is left of the window to prepare: spend accumulated Cash on rolls or upgrades, check that the engine still moves the chassis and the tank covers your route, and confirm weapon placement covers the car. The countdown is the game's own signal, so planning against it is the whole skill."
+      }
+    ],
+    "relatedSlugs": [
+      "best-build",
+      "tier-list",
+      "beginner-guide"
+    ],
+    "lastReviewed": "2026-09-29"
+  }
+]

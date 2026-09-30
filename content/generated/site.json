@@ -1,0 +1,75 @@
+{
+  "readyForLaunch": true,
+  "siteName": "Build and Kill Zombies Guide",
+  "shortName": "Build and Kill Zombies",
+  "description": "Build and Kill Zombies guides with codes, tier lists, best car builds, beginner routes, and boss tips for the Roblox vehicle-building zombie survival game.",
+  "language": "en",
+  "locale": "en_US",
+  "authorName": "Editorial Team",
+  "theme": {
+    "preset": "obsidian-red",
+    "overrides": {
+      "background": "222 100% 95%",
+      "foreground": "0 0% 7%",
+      "card": "222 35% 100%",
+      "card-foreground": "0 0% 7%",
+      "primary": "240 6% 10%",
+      "primary-foreground": "0 0% 100%",
+      "secondary": "222 100% 88%",
+      "muted": "222 100% 90%",
+      "muted-foreground": "0 0% 7%",
+      "border": "222 100% 79%",
+      "radius": "1.6rem",
+      "card-shadow": "0 18px 50px rgba(37, 99, 235, .14)",
+      "hero-gradient": "radial-gradient(circle at 18% 0%, hsl(240 6% 10% / .38), transparent 42%), radial-gradient(circle at 88% 8%, hsl(240 6% 10% / .2), transparent 36%)",
+      "background-pattern": "radial-gradient(hsl(240 6% 10% / .08) 1px, transparent 1px)",
+      "font-sans": "\"Inter\", ui-sans-serif, system-ui, sans-serif",
+      "font-heading": "\"Space Grotesk\", ui-sans-serif, system-ui, sans-serif",
+      "heading-weight": "700",
+      "heading-letter-spacing": "-0.04em"
+    },
+    "skin": "glass",
+    "headerStyle": "glass",
+    "componentStyle": "pill",
+    "appearanceVersion": 2,
+    "appearanceMode": "fixed-template",
+    "templateVersion": 1,
+    "accentColorId": "black",
+    "colorMode": "custom",
+    "background": "#E8EFFF",
+    "accent": "#18181B",
+    "fontId": "space-grotesk"
+  },
+  "hosting": {
+    "siteUrl": "https://build-and-kill-zombies.github.io",
+    "basePath": "",
+    "customDomain": null
+  },
+  "contact": {
+    "email": null,
+    "url": null
+  },
+  "repositoryUrl": null,
+  "allowedExternalDomains": [
+    "www.roblox.com"
+  ],
+  "assets": {
+    "logo": "/images/build-and-kill-zombies-logo.webp",
+    "cover": "/images/build-and-kill-zombies-cover.webp",
+    "openGraph": "/images/build-and-kill-zombies-og.svg",
+    "favicon": "/images/build-and-kill-zombies-logo.webp"
+  },
+  "game": {
+    "name": "Build and Kill Zombies",
+    "platform": "Roblox",
+    "developer": "Zombie Car Crusher",
+    "genre": "Vehicle-building zombie survival",
+    "officialUrl": "https://www.roblox.com/games/105011592530400"
+  },
+  "seo": {
+    "titleTemplate": "%s",
+    "defaultKeywords": [
+      "Build and Kill Zombies"
+    ]
+  }
+}

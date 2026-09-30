@@ -1,0 +1,199 @@
+{
+  "enabled": true,
+  "slug": "",
+  "pageType": "home",
+  "title": "Build and Kill Zombies Wiki: Codes, Tier List & Best Build",
+  "description": "Build and Kill Zombies wiki with working codes, tier list, best car builds, beginner guide, boss timer tips, skills, parts, and Roblox gameplay help.",
+  "keywords": [
+    "Build and Kill Zombies",
+    "Build and Kill Zombies wiki",
+    "Build and Kill Zombies guide",
+    "Build and Kill Zombies codes",
+    "Build and Kill Zombies tier list",
+    "Build and Kill Zombies best build",
+    "Build and Kill Zombies beginner guide"
+  ],
+  "primaryKeyword": "Build and Kill Zombies",
+  "secondaryKeywords": [
+    "Build and Kill Zombies wiki",
+    "Build and Kill Zombies guide",
+    "Build and Kill Zombies codes",
+    "Build and Kill Zombies tier list",
+    "Build and Kill Zombies best build",
+    "Build and Kill Zombies beginner guide",
+    "Build and Kill Zombies boss"
+  ],
+  "searchIntent": "Find what the game is and reach codes, tier list, builds, beginner and boss help fast",
+  "priority": "P0",
+  "navVisible": true,
+  "hero": {
+    "eyebrow": "Roblox vehicle-building zombie survival",
+    "heading": "Build and Kill Zombies",
+    "lead": "Build and Kill Zombies is a Roblox game where you roll CAR PARTS and SUPPORTS, bolt an engine, fuel tank, and wheels onto your car, then drive as far as you can while killing zombies to earn Cash and unlock permanent Skills.",
+    "supportingText": "This wiki keeps five focused pages: current codes, a parts and Skills tier list, the best car build, a beginner route, and boss timer prep. Pick where you are stuck.",
+    "primaryLink": {
+      "label": "Beginner Guide",
+      "slug": "beginner-guide"
+    },
+    "secondaryLink": {
+      "label": "Play on Roblox",
+      "url": "https://www.roblox.com/games/105011592530400"
+    }
+  },
+  "sections": [
+    {
+      "id": "quick-start",
+      "heading": "Build and Kill Zombies Wiki: Quick Start",
+      "paragraphs": [
+        "Every session in Build and Kill Zombies follows the same loop. You visit the CAR PARTS machine to roll Blocks, Engines, Wheels, and Fuels, attach them to your chassis in the build area, then roll the SUPPORTS machine for weapons and add-ons. Once the car can actually run, you drive it into zombie territory, kill zombies, and push your best distance for Studs.",
+        "Distance and kills pay Cash, and Cash funds your next rolls and upgrades. Alongside the car itself, your account earns Skills like Luck, which improve what the machines give you over time. That combination, a working car plus permanent account progression, is what turns short early runs into long profitable ones.",
+        "New players should start with the beginner guide, while anyone deciding what to buy next will get the most out of the tier list and best build pages below."
+      ],
+      "links": [
+        {
+          "label": "Beginner Guide",
+          "slug": "beginner-guide",
+          "description": "Your first car and first runs, step by step."
+        }
+      ]
+    },
+    {
+      "id": "codes",
+      "heading": "Working Build and Kill Zombies Codes",
+      "paragraphs": [
+        "Codes hand out free Cash, engines, tanks, Passenger Seats, and event currency, which is the cheapest way to skip the weakest part of the early game. The most useful codes reported working as of the latest source check (September 26, 2026) are:"
+      ],
+      "table": {
+        "caption": "Reported working Build and Kill Zombies codes",
+        "columns": [
+          "Code",
+          "Reward"
+        ],
+        "rows": [
+          [
+            "ZEUS",
+            "50 Lightning Tokens"
+          ],
+          [
+            "COMMUNITY",
+            "1,000 Cash + Small Engine + Small Tank"
+          ],
+          [
+            "CashDrop",
+            "500 Cash"
+          ]
+        ]
+      },
+      "links": [
+        {
+          "label": "See all working codes",
+          "slug": "codes",
+          "description": "Full working list, redeem steps, and expired codes."
+        }
+      ]
+    },
+    {
+      "id": "tier-list",
+      "heading": "Build and Kill Zombies Tier List",
+      "paragraphs": [
+        "Not every roll or purchase deserves your Cash. The tier list ranks the game's real systems, Fuel, Engines, Wheels, Supports, and permanent Skills like Luck, by how much they improve your runs, so you stop spending on rolls that only look good.",
+        "The short version: fuel and an engine that can actually move your chassis come first, wheels and a reliable Support come next, and account Skills keep paying off long after individual parts are replaced."
+      ],
+      "links": [
+        {
+          "label": "Open the tier list",
+          "slug": "tier-list",
+          "description": "Parts, Skills, and Supports ranked with reasoning."
+        }
+      ]
+    },
+    {
+      "id": "best-build",
+      "heading": "Build and Kill Zombies Best Build and Car Setup",
+      "paragraphs": [
+        "The best car build is not the heaviest one. A working setup pairs an engine with enough fuel for the run you want, wheels and a chassis that stay stable at speed, and Supports placed where they can actually hit zombies. Skills like Luck sit on top and quietly improve every future roll.",
+        "Our best build page walks that full path: a starter car that runs, the order to upgrade in, and an if-then troubleshooting list for runs that keep ending early."
+      ],
+      "links": [
+        {
+          "label": "Read the best build and car setup guide",
+          "slug": "best-build",
+          "description": "Engine, fuel, wheels, Supports, and upgrade order."
+        }
+      ]
+    },
+    {
+      "id": "how-to-play",
+      "heading": "How to Play Build and Kill Zombies",
+      "paragraphs": [
+        "A first session is simple once someone orders it for you: finish the tutorial, roll your first CAR PARTS, get an engine with fuel and wheels onto a chassis, add one Support, then drive until the zombies win. That first drive pays Cash and Studs, which fund better rolls immediately after.",
+        "The beginner guide turns that loop into a ten-minute route, covering the machines, the build area, driving, and what to upgrade first so you do not waste your opening Cash."
+      ],
+      "links": [
+        {
+          "label": "Start the beginner guide",
+          "slug": "beginner-guide",
+          "description": "How to play, first car, and where the Cash comes from."
+        }
+      ]
+    },
+    {
+      "id": "systems",
+      "heading": "CAR PARTS, SUPPORTS, Skills and Progression",
+      "intro": "Build and Kill Zombies splits progression across three systems. Knowing which is which keeps every purchase pointed at a stronger account.",
+      "bullets": [
+        "CAR PARTS machine: rolls the physical pieces of your car, including Blocks, Engines, Wheels, and Fuels.",
+        "SUPPORTS machine: rolls weapons and add-ons that are separate from the car parts, giving the car ways to kill zombies.",
+        "Skills: permanent account progression such as Luck, More Support, and Gold Roll that improves what rolls give you over time.",
+        "Cash and Studs: the currencies your runs earn, spent on rolls, parts, and progression.",
+        "Fuel and Engine pairing: an engine only earns its price when the tank behind it can feed the distance you plan to drive."
+      ],
+      "paragraphs": [
+        "The tier list page compares these systems against each other, and the best build page shows how they combine into one working car."
+      ]
+    },
+    {
+      "id": "bosses",
+      "heading": "Build and Kill Zombies Boss Timer and Events",
+      "paragraphs": [
+        "Boss fights run on a countdown: the HUD shows NEXT BOSS IN, a visible timer the game uses to signal the next boss encounter. Use the window to finish upgrades and test the build, and the boss guide turns that countdown into a preparation checklist.",
+        "Right now the game's Update 3 Zeus Event is live, with a Zeus Boss Fight as its headline and Lightning Tokens as the event currency. Event windows are limited, so the boss guide keeps the current status, what to do before the timer hits zero, and which build priorities matter most."
+      ],
+      "links": [
+        {
+          "label": "Open the boss guide and timer tips",
+          "slug": "bosses",
+          "description": "NEXT BOSS IN prep and current Zeus Event notes."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Build and Kill Zombies?",
+      "answer": "Build and Kill Zombies is a free Roblox game that mixes vehicle building with zombie survival. You roll parts from the CAR PARTS and SUPPORTS machines, build a working car, drive it as far as possible while killing zombies, and earn Cash and Studs to upgrade your build and Skills."
+    },
+    {
+      "question": "Is the game free to play?",
+      "answer": "Yes, the game is free to play on Roblox on PC and mobile through the Roblox app. Codes and normal play provide the resources you need; spending is optional."
+    },
+    {
+      "question": "What are the working Build and Kill Zombies codes?",
+      "answer": "Codes like ZEUS, COMMUNITY, and CashDrop were reported working as of the September 26, 2026 source check. The codes page keeps the full current list with rewards, redeem steps, and expired codes."
+    },
+    {
+      "question": "What is the difference between CAR PARTS and SUPPORTS?",
+      "answer": "CAR PARTS rolls the pieces your car is physically built from, such as Blocks, Engines, Wheels, and Fuels. SUPPORTS rolls weapons and add-ons separately. A complete build needs both: parts so the car runs, supports so it kills."
+    },
+    {
+      "question": "What do Skills do long-term?",
+      "answer": "Skills are permanent account progression. Luck improves what you get from rolls, More Support adds support capacity, and Gold Roll is a premium progression option. Unlike car parts, Skills are not lost when your car is rebuilt."
+    },
+    {
+      "question": "What does NEXT BOSS IN mean?",
+      "answer": "NEXT BOSS IN is the countdown shown in the HUD before a boss fight arrives. It is your preparation window: roll, upgrade, and check the build before it reaches zero. The boss guide explains what to prioritize."
+    }
+  ],
+  "screenshots": [],
+  "lastReviewed": "2026-09-29"
+}
