@@ -36,7 +36,7 @@ function supplement(home: HomePageDefinition): string {
   const faq = home.faq.length
     ? `<section id="faq" class="doc-section"><h2>Frequently Asked Questions</h2>${home.faq.map((item) => `<div class="faq-item"><h3>${esc(item.question)}</h3><p>${esc(item.answer)}</p></div>`).join("")}</section>`
     : "";
-  const updated = `<p class="meta-date">Last updated: <time dateTime="${esc(home.lastReviewed)}">${esc(home.lastReviewed)}</time></p>`;
+  const updated = `<p class="meta-date">Last updated: <time datetime="${esc(home.lastReviewed)}">${esc(home.lastReviewed)}</time></p>`;
   return `<div class="section">${updated}${supporting}${sections}${faq}</div>`;
 }
 

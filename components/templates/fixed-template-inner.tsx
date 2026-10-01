@@ -25,7 +25,7 @@ function renderLinks(links: NonNullable<SeoPageDefinition["sections"][number]["l
 }
 
 function articleInner(page: SeoPageDefinition): string {
-  const lastUpdated = `<p class="meta-date">Last updated: <time dateTime="${esc(page.lastReviewed)}">${esc(page.lastReviewed)}</time></p>`;
+  const lastUpdated = `<p class="meta-date">Last updated: <time datetime="${esc(page.lastReviewed)}">${esc(page.lastReviewed)}</time></p>`;
   const sections = page.sections.map((section) => {
     const intro = section.intro ? `<p>${esc(section.intro)}</p>` : "";
     const paragraphs = (section.paragraphs ?? []).map((paragraph) => `<p>${esc(paragraph)}</p>`).join("");

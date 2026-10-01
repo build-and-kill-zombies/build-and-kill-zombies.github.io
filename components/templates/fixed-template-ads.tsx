@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { ResponsiveBannerAd } from "@/components/integrations/banner-ad";
 import { NativeAdSlot } from "@/components/integrations/native-ad-slot";
@@ -12,14 +12,21 @@ function findAnchor(name: string): HTMLElement | null {
 
 /** Mounts ad components into the anchor divs rendered inside the fixed-template HTML. */
 export function FixedTemplateAds() {
-  // Anchors come from server-rendered static HTML, so they exist before the client render starts.
-  const [bannerAnchor] = useState(() => findAnchor("banner"));
-  const [nativeAnchor] = useState(() => findAnchor("native"));
+  // Resolve anchors after hydration commit: if hydration recovery re-creates the
+  // template HTML, anchors captured during render would be detached from the document.
+  const [anchors, setAnchors] = useState<{ banner: HTMLElement | null; native: HTMLElement | null }>({
+    banner: null,
+    native: null,
+  });
+
+  useEffect(() => {
+    setAnchors({ banner: findAnchor("banner"), native: findAnchor("native") });
+  }, []);
 
   return (
     <>
-      {bannerAnchor ? createPortal(<ResponsiveBannerAd />, bannerAnchor) : null}
-      {nativeAnchor ? createPortal(<NativeAdSlot />, nativeAnchor) : null}
+      {anchors.banner ? createPortal(<ResponsiveBannerAd />, anchors.banner) : null}
+      {anchors.native ? createPortal(<NativeAdSlot />, anchors.native) : null}
     </>
   );
 }
