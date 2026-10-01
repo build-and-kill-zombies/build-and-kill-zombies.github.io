@@ -12,15 +12,22 @@ function findAnchor(name: string): HTMLElement | null {
 
 /** Mounts ad components into the anchor divs rendered inside the fixed-template HTML. */
 export function FixedTemplateAds() {
-  // Resolve anchors after hydration commit: if hydration recovery re-creates the
-  // template HTML, anchors captured during render would be detached from the document.
-  const [anchors, setAnchors] = useState<{ banner: HTMLElement | null; native: HTMLElement | null }>({
-    banner: null,
-    native: null,
-  });
+  const [anchors, setAnchors] = useState(() => ({ banner: findAnchor("banner"), native: findAnchor("native") }));
 
   useEffect(() => {
-    setAnchors({ banner: findAnchor("banner"), native: findAnchor("native") });
+    // Re-check after hydration settles: if hydration recovery re-created the
+    // template HTML, anchors captured during render are detached. setTimeout so
+    // setState is not called synchronously in the effect (react-hooks lint rule).
+    const id = setTimeout(() => {
+      setAnchors((prev) => {
+        const next = {
+          banner: prev.banner?.isConnected ? prev.banner : findAnchor("banner"),
+          native: prev.native?.isConnected ? prev.native : findAnchor("native"),
+        };
+        return next.banner === prev.banner && next.native === prev.native ? prev : next;
+      });
+    }, 0);
+    return () => clearTimeout(id);
   }, []);
 
   return (
