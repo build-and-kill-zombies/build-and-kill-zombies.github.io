@@ -1070,5 +1070,1152 @@
       "beginner-guide"
     ],
     "lastReviewed": "2026-09-29"
+  },
+  {
+    "enabled": true,
+    "slug": "car-ideas",
+    "pageType": "guide",
+    "navLabel": "Car Ideas",
+    "title": "Build and Kill Zombies Car Ideas & Vehicle Designs",
+    "description": "Explore Build and Kill Zombies car ideas, vehicle layouts, beginner designs, and upgrade paths. Find practical builds you can adapt for your next run.",
+    "keywords": [
+      "build and kill zombies car ideas",
+      "best build",
+      "weapons"
+    ],
+    "primaryKeyword": "build and kill zombies car ideas",
+    "secondaryKeywords": ["build and kill zombies vehicle designs", "build and kill zombies car layouts"],
+    "searchIntent": "Choose a compact starter, an everyday hybrid, a weapon platform, or a distance runner. These labelled vehicle sketches show what to mount and which tradeoffs to test with the parts you already own.",
+    "priority": "P0",
+    "navVisible": true,
+    "wordCountTarget": 900,
+    "sourceNotes": [
+      "2026-10-15 | Suggested designs and test procedure are editorial advice based on the existing best-build and beginner-guide mechanics; not official blueprints. High confidence in labels and clear illustrative status.",
+      "2026-10-15 | Game identity and build/weapons/Cash loop -> https://www.roblox.com/games/105011592530400/Build-and-Kill-Zombies -> public description, high confidence.",
+      "2026-10-15 | Preset names, part categories, Build mode -> https://bloxodes.com/wiki/build-and-kill-zombies; corroborated by https://allthings.how/build-and-kill-zombies-best-car-build-and-skill-priority-roblox/. Medium-high; exact counts and costs omitted."
+    ],
+    "references": [
+      {
+        "label": "Official Roblox experience",
+        "url": "https://www.roblox.com/games/105011592530400/Build-and-Kill-Zombies"
+      },
+      {
+        "label": "Build mode and preset overview",
+        "url": "https://bloxodes.com/wiki/build-and-kill-zombies"
+      }
+    ],
+    "factsStatus": "verified",
+    "hero": {
+      "eyebrow": "Vehicle workshop",
+      "heading": "Build and Kill Zombies Car Ideas",
+      "lead": "Choose a compact starter, an everyday hybrid, a weapon platform, or a distance runner. These labelled vehicle sketches show what to mount and which tradeoffs to test with the parts you already own."
+    },
+    "sections": [
+      {
+        "id": "design-directory",
+        "heading": "Pick a vehicle design",
+        "paragraphs": [
+          "Pick a layout for the parts you own: compact starter, everyday hybrid, weapon platform, or distance runner. These are suggested designs, not official blueprints."
+        ],
+        "table": {
+          "caption": "Four adaptable car ideas",
+          "columns": [
+            "Design",
+            "Parts to prepare",
+            "Strength",
+            "Tradeoff"
+          ],
+          "rows": [
+            [
+              "Compact starter",
+              "Blocks, seat, engine, fuel, matched wheels; one weapon when available",
+              "Easy to inspect and rebuild",
+              "Little room for extra equipment"
+            ],
+            [
+              "Everyday hybrid",
+              "A working starter set plus a front weapon",
+              "A useful balance of driving and contact coverage",
+              "Must keep the front mount clear"
+            ],
+            [
+              "Weapon platform",
+              "Balanced frame, movement parts, owned weapons and available support capacity",
+              "Space to compare complementary mounts",
+              "Extra equipment needs another movement test"
+            ],
+            [
+              "Distance runner",
+              "A compact frame with fuel suited to your intended route",
+              "Keeps the layout focused on completing drives",
+              "Fewer places to carry additional weapons"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "layout-sketches",
+        "heading": "Car layouts you can adapt",
+        "paragraphs": [
+          "Read each sketch from the front arrow downward. Cells show relative placement, not stud measurements, attachment sockets, or a guaranteed working blueprint. Keep your actual parts connected in the builder and follow its placement rules. Wheel pairs sit opposite each other so you can inspect whether the finished frame is balanced."
+        ],
+        "layouts": [
+          {
+            "name": "Compact starter: a small rolling test bed",
+            "rows": [
+              [
+                "Wheel",
+                "Frame",
+                "Wheel"
+              ],
+              [
+                "Frame",
+                "Seat",
+                "Frame"
+              ],
+              [
+                "Wheel",
+                "Engine + fuel",
+                "Wheel"
+              ]
+            ],
+            "note": "Keep the footprint modest. Add your first weapon to an exposed front mounting surface after the car drives. This is the easiest layout to inspect when a wheel or new attachment causes trouble."
+          },
+          {
+            "name": "Everyday hybrid: a clear front mount",
+            "rows": [
+              [
+                "Wheel",
+                "Front weapon",
+                "Wheel"
+              ],
+              [
+                "Frame",
+                "Seat",
+                "Frame"
+              ],
+              [
+                "Wheel",
+                "Engine + fuel",
+                "Wheel"
+              ]
+            ],
+            "note": "Put a contact weapon where approaching zombies can reach it. Keep the engine, seat and fuel within the frame rather than extending the nose just for appearance. This is a practical design to compare against your starter."
+          },
+          {
+            "name": "Weapon platform: room for a second role",
+            "rows": [
+              [
+                "Front mount",
+                "Frame",
+                "Front mount"
+              ],
+              [
+                "Wheel",
+                "Seat",
+                "Wheel"
+              ],
+              [
+                "Frame",
+                "Engine",
+                "Frame"
+              ],
+              [
+                "Wheel",
+                "Fuel",
+                "Wheel"
+              ]
+            ],
+            "note": "Only use a second support if the builder permits it. Try a contact mount with a ranged weapon that has a clear firing path. The wider working area makes placement easier, but each addition needs a drive test."
+          },
+          {
+            "name": "Distance runner: central equipment",
+            "rows": [
+              [
+                "Wheel",
+                "Front mount",
+                "Wheel"
+              ],
+              [
+                "Frame",
+                "Seat",
+                "Frame"
+              ],
+              [
+                "Frame",
+                "Fuel",
+                "Frame"
+              ],
+              [
+                "Wheel",
+                "Engine",
+                "Wheel"
+              ]
+            ],
+            "note": "Reserve central space for the fuel equipment you own. A longer frame is an option when a larger part needs it, not a requirement for earning distance. Keep the weapon arrangement simple while comparing fuel changes."
+          }
+        ]
+      },
+      {
+        "id": "build-sequence",
+        "heading": "Build one design without wasting parts",
+        "steps": [
+          {
+            "heading": "Choose the smallest useful frame",
+            "description": "Use enough blocks to connect your seat and movement parts. Leave access to the place where the first weapon will attach, so adding it does not require rebuilding the whole nose."
+          },
+          {
+            "heading": "Fit the movement parts",
+            "description": "Place your engine, fuel and wheels before decorating. Inspect the vehicle from both sides; an unsupported end or uneven wheel arrangement is easier to spot before weapons hide the frame."
+          },
+          {
+            "heading": "Make a short drive",
+            "description": "Check that the car moves and steers before changing the design further. If it drags or turns badly, move parts and test again while the layout is still simple."
+          },
+          {
+            "heading": "Add one weapon role",
+            "description": "Choose one exposed contact mount or one ranged weapon with a clear firing direction. Confirm placement and support capacity in your own builder rather than copying the number of mounts in a sketch."
+          },
+          {
+            "heading": "Compare the finished layout",
+            "description": "Drive a comparable route, record the result and name the first limitation. Keep the new layout if it addresses that limitation; undo unnecessary additions before buying another replacement."
+          }
+        ],
+        "links": [
+          {
+            "label": "Best build upgrade priorities",
+            "slug": "best-build",
+            "description": "Use this when deciding which system to improve after choosing a design."
+          },
+          {
+            "label": "Weapons and placement",
+            "slug": "weapons",
+            "description": "Match each mounting position to a weapon role."
+          }
+        ]
+      },
+      {
+        "id": "design-failures",
+        "heading": "Why a good-looking car fails",
+        "subsections": [
+          {
+            "heading": "It tips, drifts or scrapes",
+            "paragraphs": [
+              "Lower a tall arrangement and redistribute the parts before expanding it. Compare left and right wheel positions and inspect whether the frame sits level. A striking silhouette is useful inspiration, but a shape that cannot drive consistently is a poor starting point for further equipment."
+            ]
+          },
+          {
+            "heading": "The new loadout earns less",
+            "paragraphs": [
+              "Compare fuel, travel and weapon contact separately. A new mount may have hidden the old weapon behind the chassis, or the car may simply be less manageable. Return to one proven weapon and add the second again in a different position. This isolates placement from the rest of the design."
+            ]
+          },
+          {
+            "heading": "You cannot recreate a preset",
+            "paragraphs": [
+              "Car Builds lists ready-made designs including Fast Furious and Blue Monster. Use the requirements shown there as your inventory checklist. The sketches on this page are alternatives for experimenting with available parts; they do not replace those official preset requirements."
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Record Cash and time per run",
+            "slug": "how-to-get-cash-fast"
+          },
+          {
+            "label": "Build and Kill Zombies wiki home",
+            "slug": ""
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Which car idea should a beginner try first?",
+        "answer": "Use the compact starter. A small connected frame with a seat, engine, fuel and balanced wheels makes failures easy to diagnose. Add a weapon once it drives reliably, then adapt the hybrid sketch."
+      },
+      {
+        "question": "Are these pictures screenshots or exact blueprints?",
+        "answer": "They are illustrative layouts. They show relative equipment positions, not exact block counts, game footage or automatic Car Builds recipes. Your builder decides which attachments fit."
+      },
+      {
+        "question": "Should I build a long car or a wide car?",
+        "answer": "Choose space for a specific part or mounting job. A longer central area can accommodate fuel, while a wider platform can separate mounts. Test handling after changing either dimension."
+      },
+      {
+        "question": "Can I use Fast Furious or Blue Monster instead?",
+        "answer": "Yes. They are preset designs in Car Builds. Check the parts the current menu requires, then compare the resulting car with a custom layout rather than assuming a preset solves every run."
+      }
+    ],
+    "relatedSlugs": [
+      "best-build",
+      "weapons",
+      "how-to-get-cash-fast"
+    ],
+    "lastReviewed": "2026-10-15"
+  },
+  {
+    "enabled": true,
+    "slug": "halloween-event",
+    "pageType": "updates",
+    "navLabel": "Halloween Event",
+    "title": "Build and Kill Zombies Halloween Event 2026 Guide",
+    "description": "Follow the Build and Kill Zombies Halloween event with confirmed activities, event rewards, useful tips, and links to current Roblox code updates.",
+    "keywords": [
+      "build and kill zombies halloween event",
+      "codes",
+      "car ideas"
+    ],
+    "primaryKeyword": "build and kill zombies halloween event",
+    "secondaryKeywords": ["build and kill zombies hollow dungeon", "build and kill zombies halloween update"],
+    "searchIntent": "The official October listing is Hollow Dungeon, followed by Hollow Dungeon - Part II. Check the announced windows below, then prepare your car and review reported Crypt Token rewards before playing.",
+    "priority": "P0",
+    "navVisible": true,
+    "wordCountTarget": 900,
+    "sourceNotes": [
+      "2026-10-15 | Official Hollow/Part II titles, entity IDs, portal teaser and date windows -> https://apis.roblox.com/virtual-events/v1/universes/10741654282/virtual-events -> direct HTTPS API response archived in docs/qa/roblox-events-2026-10-15.json; high confidence. Window is not inferred shop closure.",
+      "2026-10-15 | Crypt code reward reports -> https://www.gamesradar.com/games/simulation/build-and-kill-zombies-codes/ and https://www.supercheats.com/build-and-kill-zombies-codes -> retrieved pages, medium-high for agreement, not redeemed. Exact event gameplay, boss, shop and currency exchanges unconfirmed and omitted.",
+      "2026-10-15 | Shorter than the word target intentionally: useful confirmed announcements and preparation only; no invented complete dungeon walkthrough."
+    ],
+    "references": [
+      {
+        "label": "Official Roblox event records",
+        "url": "https://apis.roblox.com/virtual-events/v1/universes/10741654282/virtual-events"
+      },
+      {
+        "label": "Official experience and live event entry",
+        "url": "https://www.roblox.com/games/105011592530400/Build-and-Kill-Zombies"
+      },
+      {
+        "label": "GamesRadar October 12 code report",
+        "url": "https://www.gamesradar.com/games/simulation/build-and-kill-zombies-codes/"
+      },
+      {
+        "label": "SuperCheats October 11 code report",
+        "url": "https://www.supercheats.com/build-and-kill-zombies-codes"
+      }
+    ],
+    "factsStatus": "verified",
+    "hero": {
+      "eyebrow": "Practical field guide",
+      "heading": "Build and Kill Zombies Halloween Event",
+      "lead": "The official October listing is Hollow Dungeon, followed by Hollow Dungeon - Part II. Check the announced windows below, then prepare your car and review reported Crypt Token rewards before playing."
+    },
+    "sections": [
+      {
+        "id": "confirmed-update",
+        "heading": "Latest confirmed update: Hollow Dungeon",
+        "paragraphs": [
+          "As checked on October 15, 2026, Zombie Car Crusher has published two Hollow Dungeon listings for Build and Kill Zombies. The first introduces a portal theme; the next announces Part II. These are the confirmed announcements behind searches for the Halloween event."
+        ],
+        "table": {
+          "caption": "Official Roblox listing windows, checked October 15, 2026",
+          "columns": [
+            "Listing",
+            "Scheduled window (UTC)",
+            "What the announcement establishes"
+          ],
+          "rows": [
+            [
+              "Hollow Dungeon Event",
+              "October 10–17, 2026, around 14:00 UTC",
+              "A dungeon-themed event with a portal teaser"
+            ],
+            [
+              "Hollow Dungeon - Part II",
+              "October 17–24, 2026, around 14:00 UTC",
+              "A second scheduled part; upcoming at this check"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "join",
+        "heading": "How to check the event before joining",
+        "paragraphs": [
+          "Open the official experience and look for its current Events listing, then join the game through that experience. The announcement mentions a portal, but does not publish its map position, an entrance price or a required distance. Follow the live event prompts when you arrive. A code name is not an entrance instruction.",
+          "The dates above are listing windows, rounded to the minute. They establish the announced schedule, rather than a promise that every shop, currency or reward disappears at the closing time. Check the event interface for its own countdown before spending or delaying a claim. Part II is scheduled separately, so avoid treating the first window as the end of all October content."
+        ]
+      },
+      {
+        "id": "crypt-rewards",
+        "heading": "Crypt Tokens and reported rewards",
+        "paragraphs": [
+          "GamesRadar and other code trackers reported Crypt Tokens with the October update. Their agreed reward entries are summarized here as reports checked October 15; they are not in-game redemption tests by this site."
+        ],
+        "table": {
+          "caption": "Reported October rewards",
+          "columns": [
+            "Code",
+            "Reported reward",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "HOLLOW",
+              "50 Crypt Tokens",
+              "GamesRadar and SuperCheats agree"
+            ],
+            [
+              "HOLLOWKING",
+              "100 Crypt Tokens and a 2x Luck boost",
+              "Trackers agree; GamesRadar reports a 10-minute boost"
+            ],
+            [
+              "CRYPTCRAWLER",
+              "250 Crypt Tokens",
+              "GamesRadar and SuperCheats agree"
+            ]
+          ]
+        },
+        "links": [
+          {
+            "label": "Codes, redemption steps and status caveats",
+            "slug": "codes"
+          }
+        ]
+      },
+      {
+        "id": "prepare",
+        "heading": "Prepare for your next event session",
+        "paragraphs": [
+          "Start with a car whose engine, fuel and wheel arrangement you have already driven. Changing several systems immediately before exploring makes it difficult to tell whether a failure comes from the layout or unfamiliar content. Use a short ordinary drive to check steering and weapon placement first.",
+          "If you have additional support capacity, equip weapons you can actually mount effectively. Keep contact equipment exposed to approaching zombies and give ranged equipment an unobstructed firing direction. Extra mounts are useful only when the car remains controllable. This is preparation advice based on the normal building loop, not a claim about a dungeon enemy weakness.",
+          "Keep Cash and event currencies separate in your plan. Crypt Tokens, Lightning Tokens and Cash have different names; no exchange rate between them is established by the official Hollow announcements. Inspect the actual reward or purchase panel before spending. For a Luck reward, read the live activation and timer text before deciding when to redeem."
+        ],
+        "links": [
+          {
+            "label": "Vehicle design sketches",
+            "slug": "car-ideas"
+          },
+          {
+            "label": "Weapon placement guide",
+            "slug": "weapons"
+          },
+          {
+            "label": "Build and Kill Zombies wiki home",
+            "slug": ""
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the Halloween event called?",
+        "answer": "The official October listings call it Hollow Dungeon Event and Hollow Dungeon - Part II. Halloween event is the seasonal search term used here to help players find those announcements."
+      },
+      {
+        "question": "When is Part II scheduled?",
+        "answer": "The official listing gives October 17–24, 2026, around 14:00 UTC. At the October 15 check it is upcoming. Check Roblox again before planning a session because published schedules can change."
+      },
+      {
+        "question": "Where is the Hollow Dungeon portal?",
+        "answer": "The official description teases a portal without giving coordinates or an access requirement. Join the correct experience and follow its live event instructions; the announcement alone does not establish a route."
+      },
+      {
+        "question": "Are the Crypt Token rewards verified in game?",
+        "answer": "They are publisher-reported code rewards, cross-checked between trackers. This site has not redeemed them in game. The Codes page keeps redemption instructions and dated status information."
+      },
+      {
+        "question": "What can I buy with Crypt Tokens?",
+        "answer": "The official event announcements checked here do not list shop items or exchange prices. Read the current event shop before choosing a reward; this guide does not assign unannounced prices or drop rates."
+      }
+    ],
+    "relatedSlugs": [
+      "codes",
+      "car-ideas",
+      "weapons"
+    ],
+    "lastReviewed": "2026-10-15"
+  },
+  {
+    "enabled": true,
+    "slug": "weapons",
+    "pageType": "guide",
+    "navLabel": "Weapons",
+    "title": "Build and Kill Zombies Weapons & Supports Guide",
+    "description": "Discover Build and Kill Zombies weapons and Supports, their roles, placement tips, and practical combinations for stronger zombie-fighting car builds.",
+    "keywords": [
+      "build and kill zombies weapons",
+      "car ideas",
+      "skills"
+    ],
+    "primaryKeyword": "build and kill zombies weapons",
+    "secondaryKeywords": ["build and kill zombies supports", "build and kill zombies weapon placement"],
+    "searchIntent": "Use the SUPPORTS machine for mounted equipment, then fit each weapon where it can reach a target. Start with the named equipment below and diagnose placement before spending Cash on another roll.",
+    "priority": "P0",
+    "navVisible": true,
+    "wordCountTarget": 900,
+    "sourceNotes": [
+      "2026-10-15 | SUPPORTS acquisition and placement roles -> https://bloxodes.com/wiki/build-and-kill-zombies -> retrieved equipment overview; corroborates existing repo mechanisms, medium-high.",
+      "2026-10-15 | Names and observed slot behavior -> https://buildandkillzombies.live/weapons; Shredder/Double Barrel corroborated at https://build-and-kill-zombies-roblox.wiki/weapons/weapons-list and https://allthings.how/build-and-kill-zombies-best-car-build-and-skill-priority-roblox/; medium-high for names, no unsupported DPS, rarity or prices.",
+      "2026-10-15 | Mounting comparisons and combinations are recommendations, not measured multipliers or an official ranking."
+    ],
+    "references": [
+      {
+        "label": "Official experience",
+        "url": "https://www.roblox.com/games/105011592530400/Build-and-Kill-Zombies"
+      },
+      {
+        "label": "Equipment station and builder overview",
+        "url": "https://bloxodes.com/wiki/build-and-kill-zombies"
+      },
+      {
+        "label": "Player footage references and weapon labels",
+        "url": "https://buildandkillzombies.live/weapons"
+      },
+      {
+        "label": "Shredder and Double Barrel reference",
+        "url": "https://build-and-kill-zombies-roblox.wiki/weapons/weapons-list"
+      }
+    ],
+    "factsStatus": "verified",
+    "hero": {
+      "eyebrow": "Practical field guide",
+      "heading": "Build and Kill Zombies Weapons",
+      "lead": "Use the SUPPORTS machine for mounted equipment, then fit each weapon where it can reach a target. Start with the named equipment below and diagnose placement before spending Cash on another roll."
+    },
+    "sections": [
+      {
+        "id": "equipment",
+        "heading": "Weapons and Supports: what to look for",
+        "paragraphs": [
+          "CAR PARTS supplies the vehicle pieces; SUPPORTS is the equipment side of the building loop. Roll an offer, inspect what it is and buy it when you can afford the displayed price. Then use the weapons area of Build mode to fit owned equipment. A result appearing on a station is not the same as a weapon already mounted on your car.",
+          "This is a practical reference to recognizable equipment, rather than a complete live Index or a ranking by damage. Start with the job you need filled: something that connects during contact, a ranged mount with a clear shot, or room to use equipment already in inventory."
+        ],
+        "table": {
+          "caption": "Named equipment and practical mounting checks",
+          "columns": [
+            "Name",
+            "Role or known context",
+            "Placement check"
+          ],
+          "rows": [
+            [
+              "Shredder",
+              "Contact weapon shown in the opening weapon progression",
+              "Keep the working surface exposed at the front; compare against your tutorial placement"
+            ],
+            [
+              "Crossbow",
+              "Ranged weapon shown in player build inventories",
+              "Face the firing direction toward targets and leave space ahead of it"
+            ],
+            [
+              "Green Smasher",
+              "Mounted equipment shown in player footage",
+              "Inspect its shape and test where it actually connects with enemies"
+            ],
+            [
+              "Double Barrel",
+              "Weapon offer and inventory item shown in player footage",
+              "Check its orientation and builder requirements before replacing a working mount"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "mounting",
+        "heading": "Fit the weapon to the car",
+        "subsections": [
+          {
+            "heading": "Contact loadouts",
+            "paragraphs": [
+              "Begin with a front attachment point that the chassis does not hide. Drive toward a comparable group and watch whether the working surface meets zombies before the body does. If a weapon sits too high or behind the frame, move it before changing the rest of the car.",
+              "A compact starter or hybrid is a useful test bed because there is less surrounding construction to inspect. Keep the old mount position in mind, or take your own screenshot, so you can undo an experiment that performs worse. Treat front placement as a starting test, not a universal rule for every item."
+            ]
+          },
+          {
+            "heading": "Ranged loadouts",
+            "paragraphs": [
+              "A Crossbow needs a useful view toward approaching enemies. Check the direction of the mounted piece and whether blocks or other equipment sit ahead of it. Turn the car during a test and compare what happens when a target is in front of the weapon versus off to one side.",
+              "A ranged mount is an option when you want a different engagement position from the contact weapon. It does not justify covering every spare surface. Verify one mount first, then add complementary equipment only when the extra capacity and the physical layout allow it."
+            ]
+          },
+          {
+            "heading": "Capacity and ownership",
+            "paragraphs": [
+              "Watch the builder support counter while equipping each piece. More Support skills expand support capacity, but the live counter is the useful answer for the item you are placing. Do not assume every object in the weapons inventory consumes the same kind of slot.",
+              "An empty slot is not missing damage if you have nothing suitable to place in it. A weapon in inventory also contributes nothing until it is fitted. Check ownership, placement acceptance and the support count before purchasing another capacity upgrade."
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Car ideas with labelled mount positions",
+            "slug": "car-ideas"
+          },
+          {
+            "label": "More Support and other Skills",
+            "slug": "skills"
+          }
+        ]
+      },
+      {
+        "id": "combinations",
+        "heading": "Practical combinations for early and growing garages",
+        "table": {
+          "caption": "Choose a pairing by the problem it solves",
+          "columns": [
+            "Situation",
+            "Try",
+            "Keep it if"
+          ],
+          "rows": [
+            [
+              "Your first moving car",
+              "One Shredder or another owned contact mount",
+              "It reaches zombies without making the layout harder to drive"
+            ],
+            [
+              "Contact is reliable but targets pass outside it",
+              "Add an owned Crossbow with a clear firing direction, if capacity allows",
+              "You gain useful coverage on comparable runs"
+            ],
+            [
+              "Several pieces are waiting in inventory",
+              "Mount one new item at a time",
+              "Each addition has a visible job and the car still handles consistently"
+            ],
+            [
+              "You earn less after expanding",
+              "Return to the last useful mount arrangement",
+              "The simpler setup produces more consistent payouts"
+            ]
+          ]
+        },
+        "paragraphs": [
+          "Early on, a usable movement setup is the prerequisite for evaluating any weapon. Repeatedly buying equipment while the car cannot travel gives you no useful comparison. Once it runs, keep a dependable first mount and use the next few attempts to learn its reach.",
+          "In a growing garage, the purchase decision becomes more specific. If a second weapon is owned but blocked by support capacity, inspect More Support. If capacity is available but the new item never reaches a target, placement is the immediate experiment. If travel ends before the loadout has useful contact, review fuel and handling."
+        ],
+        "links": [
+          {
+            "label": "Tier list for system upgrade priorities",
+            "slug": "tier-list"
+          },
+          {
+            "label": "Best build progression",
+            "slug": "best-build"
+          }
+        ]
+      },
+      {
+        "id": "troubleshooting",
+        "heading": "No damage or missed targets: a quick checklist",
+        "steps": [
+          {
+            "heading": "Confirm the item is equipped",
+            "description": "Look for it on the actual built vehicle. A station offer or inventory icon alone does not establish that it is installed."
+          },
+          {
+            "heading": "Check placement and direction",
+            "description": "Inspect the working face, the height and any obstruction. For a contact mount, compare against where the enemy touches the car; for a ranged mount, inspect the firing path."
+          },
+          {
+            "heading": "Read capacity in the builder",
+            "description": "If placement is rejected, check the displayed support limit and unlocks. Repositioning cannot solve a capacity restriction, and another random roll cannot solve it either."
+          },
+          {
+            "heading": "Make one controlled change",
+            "description": "Move one item or remove one obstruction and repeat a comparable drive. Record whether the improvement comes from more contact, better travel or simply a different group of targets."
+          }
+        ],
+        "paragraphs": [
+          "If multiple ordinary tests show no change, inspect the item description and current game prompts. An update can change how equipment behaves. Keep your last reliable configuration available while testing, and spend only after you can name the failure you are trying to fix."
+        ],
+        "links": [
+          {
+            "label": "Compare run income and time",
+            "slug": "how-to-get-cash-fast"
+          },
+          {
+            "label": "Build and Kill Zombies wiki home",
+            "slug": ""
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Where do I get weapons in Build and Kill Zombies?",
+        "answer": "Use the SUPPORTS equipment station and inspect the current offer before buying. Equip the item through Build mode after purchasing it; rolling and mounting are separate steps."
+      },
+      {
+        "question": "Why does my Shredder not hit zombies?",
+        "answer": "Inspect whether its working surface reaches the enemies. Start with an exposed front position and check height, direction and surrounding blocks. Compare one placement change at a time."
+      },
+      {
+        "question": "Should every weapon face forward?",
+        "answer": "Forward-facing placement is a useful first test for approaching targets, especially a front contact mount. The useful position depends on the item and target approach; inspect each weapon instead of treating one direction as a universal rule."
+      },
+      {
+        "question": "How do I carry more Supports?",
+        "answer": "Read the support counter in Build mode and inspect More Support in Skills. Buy capacity when an owned, useful piece is actually blocked by that limit."
+      },
+      {
+        "question": "Is the most expensive weapon always the best choice?",
+        "answer": "Judge it by the role it fills on your car and the results of comparable drives. Price alone does not show whether the mount can hit targets or whether you can still complete the route."
+      }
+    ],
+    "relatedSlugs": [
+      "car-ideas",
+      "skills",
+      "tier-list"
+    ],
+    "lastReviewed": "2026-10-15"
+  },
+  {
+    "enabled": true,
+    "slug": "skills",
+    "pageType": "guide",
+    "navLabel": "Skills",
+    "title": "Build and Kill Zombies Skills & Upgrade Guide",
+    "description": "Learn how Build and Kill Zombies Skills work, which upgrades to prioritize, and how Luck, More Support, and Gold Roll affect your progression.",
+    "keywords": [
+      "build and kill zombies skills",
+      "weapons",
+      "tier list"
+    ],
+    "primaryKeyword": "build and kill zombies skills",
+    "secondaryKeywords": ["build and kill zombies skill tree", "best skills in build and kill zombies"],
+    "searchIntent": "Open SKILLS for lasting progression. Prioritize a usable car, then choose Luck for future rolls, More Support for equipment you can mount, and Gold Roll when your garage can support a longer upgrade plan.",
+    "priority": "P1",
+    "navVisible": true,
+    "wordCountTarget": 900,
+    "sourceNotes": [
+      "2026-10-15 | Persistent Cash upgrades and branches -> https://bloxodes.com/wiki/build-and-kill-zombies -> Skills summary; names and purpose corroborated by existing repo and https://allthings.how/build-and-kill-zombies-best-car-build-and-skill-priority-roblox/; high for core mechanism.",
+      "2026-10-15 | Connected UI, Luck / More Support / Unlock Gold Roll node names -> https://buildandkillzombiescodes.wiki/skills/ -> source-described footage and table. Medium-high for names; prices conflict across publishers and are deliberately omitted.",
+      "2026-10-15 | Scenario purchase order is editorial reasoning, not official priority or a fixed ROI claim. No reset guarantee, exact probability or interval supplied."
+    ],
+    "references": [
+      {
+        "label": "Skills and progression overview",
+        "url": "https://bloxodes.com/wiki/build-and-kill-zombies"
+      },
+      {
+        "label": "Skill tree reference and footage notes",
+        "url": "https://buildandkillzombiescodes.wiki/skills/"
+      },
+      {
+        "label": "Build and skill context",
+        "url": "https://allthings.how/build-and-kill-zombies-best-car-build-and-skill-priority-roblox/"
+      }
+    ],
+    "factsStatus": "verified",
+    "hero": {
+      "eyebrow": "Practical field guide",
+      "heading": "Build and Kill Zombies Skills Guide",
+      "lead": "Open SKILLS for lasting progression. Prioritize a usable car, then choose Luck for future rolls, More Support for equipment you can mount, and Gold Roll when your garage can support a longer upgrade plan."
+    },
+    "sections": [
+      {
+        "id": "skill-reference",
+        "heading": "What Luck, More Support and Gold Roll do",
+        "paragraphs": [
+          "Skills are purchased upgrades separate from the replaceable parts you fit to a vehicle. The SKILLS interface contains connected upgrade branches, so skill tree is an appropriate description of its layout. Read the path and prerequisites shown in your current interface before planning a purchase several nodes away.",
+          "The three lines below answer different needs. Their names are useful even when a guide does not carry a complete price list: roll quality, equipment capacity and access to gold-roll progression. Costs and higher-rank details should come from the tooltip in the current game."
+        ],
+        "table": {
+          "caption": "Skill lines and the decision each supports",
+          "columns": [
+            "Skill line",
+            "Purpose",
+            "Good time to consider it"
+          ],
+          "rows": [
+            [
+              "Luck I and later Luck ranks",
+              "Improve luck for equipment rolling",
+              "Your car can earn Cash and you expect to keep rolling parts"
+            ],
+            [
+              "More Support I and later ranks",
+              "Increase support capacity",
+              "You own useful equipment that the displayed support limit prevents you from mounting"
+            ],
+            [
+              "Unlock Gold Roll / Gold Roll",
+              "Open or develop gold-roll progression",
+              "You can afford the shown path while keeping the current car functional"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "purchase-route",
+        "heading": "Choose your next upgrade by your current session",
+        "subsections": [
+          {
+            "heading": "New player: establish a working loop",
+            "paragraphs": [
+              "First make sure the vehicle can drive. A skill purchase does not install an engine or supply an empty fuel tank. Keep enough Cash to address a missing movement part and get through another ordinary run, then inspect the first affordable Luck option.",
+              "Luck is a sensible early preference when you will make many more rolls. Its benefit concerns later equipment opportunities; it is not a direct repair for poor steering or a misplaced weapon. Take the cheaper useful step you can actually unlock rather than saving blindly for a distant node."
+            ]
+          },
+          {
+            "heading": "Cash-focused session: improve future purchases",
+            "paragraphs": [
+              "For a session built around repeated drives, identify whether your problem is the vehicle or the next series of rolls. If the car repeatedly stops because of fuel, a practical part purchase may help the next run more immediately than another skill. If the car is dependable and new equipment is the next goal, review Luck.",
+              "Use More Support when the limit is the obstacle. A spare slot with no suitable item is an investment waiting for inventory; a blocked second useful mount has an immediate use. Compare these situations before treating support capacity as a compulsory second purchase."
+            ]
+          },
+          {
+            "heading": "Distance push: fix the route before the roll plan",
+            "paragraphs": [
+              "Skills affect the equipment you can acquire or fit, while the drive still depends on the car you assembled. Confirm that fuel and handling suit your planned attempt. Only then decide whether another support slot addresses a combat problem on that route.",
+              "If the route ends with fuel remaining but the car cannot survive contact, an owned additional weapon may justify capacity. If the tank empties first, more weapon capacity alone does not extend it. Let the failure identify the next experiment instead of buying every branch evenly."
+            ]
+          },
+          {
+            "heading": "Established garage: inspect the Gold Roll path",
+            "paragraphs": [
+              "Once the basic car and useful early upgrades are covered, review Unlock Gold Roll and the connected Gold Roll nodes. Read both the prerequisite and the effect before buying. A node name by itself does not establish its exact interval, reward pool or cost.",
+              "Check the total path you must buy rather than budgeting for the final tooltip alone. Keep ordinary equipment purchases available while working toward it. A longer-term upgrade is easier to evaluate when it does not prevent you from making another productive drive."
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Compare earning runs",
+            "slug": "how-to-get-cash-fast"
+          },
+          {
+            "label": "Best build priorities",
+            "slug": "best-build"
+          }
+        ]
+      },
+      {
+        "id": "read-the-tree",
+        "heading": "Read the skill tree before spending",
+        "steps": [
+          {
+            "heading": "Open SKILLS and find the relevant branch",
+            "description": "Choose the outcome you need first: better rolling, more support room or gold-roll progression. Look for the named node and inspect its current tooltip."
+          },
+          {
+            "heading": "Trace the prerequisite path",
+            "description": "Check earlier ranks or other unlock conditions shown by the interface. A visible later node is not necessarily ready to buy."
+          },
+          {
+            "heading": "Compare the whole purchase with your Cash",
+            "description": "Include any prerequisite purchases and the vehicle part you still need. Save toward a specific unlock instead of dividing your balance between unrelated branches."
+          },
+          {
+            "heading": "Confirm what changed after purchase",
+            "description": "For capacity, inspect the builder counter. For Luck or Gold Roll, read the new unlocked state and the roll interface. A single ordinary roll cannot demonstrate the long-term effect of a luck upgrade."
+          }
+        ],
+        "paragraphs": [
+          "Purchased Skills remain part of progression between normal runs. That makes them different from moving one weapon to another mounting point. It does not establish a promise about every future update or a particular reset feature, so inspect any reset prompt before confirming it.",
+          "Avoid comparing a Robux luck offer with a Cash skill as though they are the same purchase. Read which currency the interface requests and which benefit it describes. The useful decision is what your next earned Cash should solve, not whether an unrelated shop offer has a similar name."
+        ],
+        "links": [
+          {
+            "label": "Weapons and support capacity",
+            "slug": "weapons"
+          },
+          {
+            "label": "Overall upgrade tier list",
+            "slug": "tier-list"
+          }
+        ]
+      },
+      {
+        "id": "avoid-waste",
+        "heading": "Common skill purchase mistakes",
+        "bullets": [
+          "Buying support capacity before owning a second piece you want to mount. Check inventory first.",
+          "Expecting Luck to guarantee a rare result on the next roll. Evaluate the unlocked effect, not one lucky or unlucky pull.",
+          "Budgeting only for a final node while ignoring prerequisites on the path.",
+          "Spending the entire balance on a lasting upgrade when the current car still lacks a usable movement part.",
+          "Copying an old price table instead of reading the current tooltip before purchase."
+        ],
+        "paragraphs": [
+          "A short purchase note is enough: record the node, its displayed effect and why it solves your next problem. After a few drives, compare whether that problem remains. This habit keeps the upgrade route understandable even as your inventory and the game interface change."
+        ],
+        "links": [
+          {
+            "label": "Build and Kill Zombies wiki home",
+            "slug": ""
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Build and Kill Zombies have a skill tree?",
+        "answer": "The SKILLS interface is organized into connected upgrade branches. Follow the visible prerequisites for Luck, More Support and Gold Roll rather than assuming every node is available immediately."
+      },
+      {
+        "question": "What skill should I buy first?",
+        "answer": "Once the car can drive and earn, early Luck is a useful starting preference for a player who expects to keep rolling. Fix a missing engine or fuel setup first if you cannot complete useful drives."
+      },
+      {
+        "question": "When should I buy More Support?",
+        "answer": "Buy it when the support limit blocks equipment you already own and want to use. Check the builder counter and make sure your layout has a useful mounting position."
+      },
+      {
+        "question": "Does Luck guarantee a good roll?",
+        "answer": "No individual roll demonstrates a guarantee. Luck is a roll progression benefit; read the displayed effect and keep enough Cash to purchase useful offers when they appear."
+      },
+      {
+        "question": "Why are there no fixed skill costs here?",
+        "answer": "Use the current tooltip for prices and prerequisite ranks. Published tables disagree on several nodes, so a precise purchase plan should follow the values your game actually displays."
+      }
+    ],
+    "relatedSlugs": [
+      "weapons",
+      "tier-list",
+      "how-to-get-cash-fast"
+    ],
+    "lastReviewed": "2026-10-15"
+  },
+  {
+    "enabled": true,
+    "slug": "how-to-get-cash-fast",
+    "pageType": "guide",
+    "navLabel": "Earn Cash",
+    "title": "Build and Kill Zombies Cash Farming Guide",
+    "description": "Find practical ways to earn Cash faster in Build and Kill Zombies with repeatable runs, smarter car setups, upgrade priorities, and reward tips.",
+    "keywords": [
+      "how to get cash fast in build and kill zombies",
+      "car ideas",
+      "skills"
+    ],
+    "primaryKeyword": "how to get cash fast in build and kill zombies",
+    "secondaryKeywords": ["build and kill zombies cash farming", "earn cash in build and kill zombies"],
+    "searchIntent": "Earn Cash through driving distance and zombie kills, then compare the payout with the full time spent on each run. A repeatable car and a clear spending plan help you learn which setup earns more in your own sessions.",
+    "priority": "P1",
+    "navVisible": true,
+    "wordCountTarget": 900,
+    "sourceNotes": [
+      "2026-10-15 | Cash from distance and kills -> existing beginner-guide/best-build baseline; corroborated at https://allthings.how/build-and-kill-zombies-best-car-build-and-skill-priority-roblox/ and https://buildandkillzombies.live/cash -> mechanism, medium-high; no payout coefficients asserted.",
+      "2026-10-15 | Code reward separation -> https://www.gamesradar.com/games/simulation/build-and-kill-zombies-codes/; event currency names cross-checked against current reports. Medium-high, not live redemption.",
+      "2026-10-15 | Run log, Cash divided by observed minutes, and bottleneck decisions are editorial measurement suggestions, not game formula or guaranteed earnings."
+    ],
+    "references": [
+      {
+        "label": "Official experience",
+        "url": "https://www.roblox.com/games/105011592530400/Build-and-Kill-Zombies"
+      },
+      {
+        "label": "Cash sources reference",
+        "url": "https://buildandkillzombies.live/cash"
+      },
+      {
+        "label": "Building and run comparison context",
+        "url": "https://allthings.how/build-and-kill-zombies-best-car-build-and-skill-priority-roblox/"
+      }
+    ],
+    "factsStatus": "verified",
+    "hero": {
+      "eyebrow": "Practical field guide",
+      "heading": "How to Get Cash Fast in Build and Kill Zombies",
+      "lead": "Earn Cash through driving distance and zombie kills, then compare the payout with the full time spent on each run. A repeatable car and a clear spending plan help you learn which setup earns more in your own sessions."
+    },
+    "sections": [
+      {
+        "id": "cash-sources",
+        "heading": "Separate repeatable Cash from one-time rewards",
+        "paragraphs": [
+          "The normal repeatable earning loop is driving and fighting zombies. Distance and kills both contribute to the result, so use the Cash shown after a drive when comparing cars. Best distance is useful progression information, but it is not the same as the amount earned during an entire play session.",
+          "Codes can add Cash or equipment when a reported offer is still available and your account meets its requirements. Treat those claims as a separate starting bonus. They do not repeat every drive, and event currencies such as Crypt Tokens should not be counted as Cash."
+        ],
+        "table": {
+          "caption": "What to include in your earning plan",
+          "columns": [
+            "Source",
+            "Repeatability",
+            "How to use it"
+          ],
+          "rows": [
+            [
+              "Driving distance",
+              "Repeatable through ordinary runs",
+              "Compare travel consistency and the resulting Cash"
+            ],
+            [
+              "Zombie kills",
+              "Repeatable through combat during runs",
+              "Fit weapons where they can reach targets while the car keeps moving"
+            ],
+            [
+              "Code rewards",
+              "Limited to the code and account conditions",
+              "Check the dated Codes table; keep claims out of run comparisons"
+            ],
+            [
+              "Event Tokens",
+              "A separate named currency",
+              "Record separately and use the relevant event interface"
+            ]
+          ]
+        },
+        "links": [
+          {
+            "label": "Dated code rewards and redemption",
+            "slug": "codes"
+          }
+        ]
+      },
+      {
+        "id": "starter-loop",
+        "heading": "A practical farming loop for a new garage",
+        "steps": [
+          {
+            "heading": "Establish one dependable car",
+            "description": "Build a compact moving setup before chasing a rare part. Use the car you can drive now, then inspect what actually stops the attempt."
+          },
+          {
+            "heading": "Add a useful first weapon",
+            "description": "Mount owned equipment where it reaches zombies. A weapon hidden behind the body does not help you compare the value of combat income."
+          },
+          {
+            "heading": "Repeat a familiar drive",
+            "description": "Use a route and driving approach you can reproduce. Learn its turns and the point where your current setup struggles, instead of changing destinations every attempt."
+          },
+          {
+            "heading": "Record payout and full time",
+            "description": "Start timing before the drive preparation you want to compare and stop when you are ready for the next run. Include time spent returning and making required adjustments."
+          },
+          {
+            "heading": "Buy or move one thing",
+            "description": "Address the repeated limitation, then compare several similar attempts. Keep the improvement only if its benefit survives more than one unusually good run."
+          }
+        ],
+        "paragraphs": [
+          "Start with a few ordinary drives before spending the entire balance. If you cannot explain why the last car stopped, a new purchase gives you another unknown. A short run that teaches you the bottleneck can be more useful than repeatedly forcing the same failing record attempt.",
+          "Avoid unnecessary rebuilding between every drive. Once a basic layout works, preserve it long enough to form a comparison. When you change the engine, fuel and weapon at once, the next payout cannot show which decision helped."
+        ],
+        "links": [
+          {
+            "label": "Labelled car layouts",
+            "slug": "car-ideas"
+          },
+          {
+            "label": "First-session building steps",
+            "slug": "beginner-guide"
+          }
+        ]
+      },
+      {
+        "id": "growing-garage",
+        "heading": "Improve the constraint that keeps returning",
+        "subsections": [
+          {
+            "heading": "Fuel keeps ending the attempt",
+            "paragraphs": [
+              "Inspect fuel before buying another weapon. An otherwise capable car gains little from extra equipment if the next drive ends at the same fuel limit. Compare a fuel change on a familiar run and check whether the longer drive adds enough Cash to justify the extra time."
+            ]
+          },
+          {
+            "heading": "The car travels but kills poorly",
+            "paragraphs": [
+              "Check contact and firing direction before rolling for replacements. A free placement change is a useful first experiment. If the mount now reaches targets but coverage is still limited, consider an additional owned weapon and inspect the support capacity you would need."
+            ]
+          },
+          {
+            "heading": "Rebuilds and handling consume the session",
+            "paragraphs": [
+              "Simplify the frame and remove additions that do not solve a specific problem. Count rebuilding and return time in your notes. A car with a larger single payout may still be less convenient if each attempt requires much more setup."
+            ]
+          },
+          {
+            "heading": "You have a dependable earning baseline",
+            "paragraphs": [
+              "Set aside Cash for the next useful offer or Skill rather than buying every roll. Luck supports future equipment progression; More Support matters when a limit blocks an owned mount. Neither choice should be assigned a guaranteed Cash return without results from your own sessions."
+            ]
+          }
+        ],
+        "links": [
+          {
+            "label": "Weapons and placement troubleshooting",
+            "slug": "weapons"
+          },
+          {
+            "label": "Skills for your current stage",
+            "slug": "skills"
+          }
+        ]
+      },
+      {
+        "id": "run-log",
+        "heading": "Keep a simple run log",
+        "intro": "Copy this checklist into your notes. Use actual results; there is no official earnings prediction hidden in this method. Compare a small group of runs under similar conditions and keep unusual bonuses separate.",
+        "table": {
+          "caption": "Fields to record for each attempt",
+          "columns": [
+            "Field",
+            "What to write"
+          ],
+          "rows": [
+            [
+              "Setup",
+              "A short name and the one change since the previous setup"
+            ],
+            [
+              "Cash earned",
+              "The displayed run payout, excluding separate code claims"
+            ],
+            [
+              "Total minutes",
+              "Drive plus the preparation and return time you are comparing"
+            ],
+            [
+              "Distance and outcome",
+              "Distance reached and what ended or limited the attempt"
+            ],
+            [
+              "Next action",
+              "Keep it, revert it or test one specific adjustment"
+            ]
+          ]
+        },
+        "paragraphs": [
+          "For a manual comparison, divide your observed Cash by the total minutes you recorded. This is a personal tracking calculation, not the game payout formula. For example, use the same start and finish points for timing both cars; comparing drive time for one with full session time for the other would mislead you.",
+          "Look for repeatability across several attempts. If a new setup has one excellent run followed by repeated failures, investigate the failures before declaring it the better farmer. Record route changes or exceptional rewards rather than quietly including them in the average.",
+          "Spend toward a named improvement and stop when it solves the issue you measured. Continuing to roll after obtaining a useful part can use the Cash you needed to buy the next offer. A clear stopping point keeps farming tied to progression rather than to endless purchases."
+        ],
+        "links": [
+          {
+            "label": "Best build system priorities",
+            "slug": "best-build"
+          },
+          {
+            "label": "Build and Kill Zombies wiki home",
+            "slug": ""
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the repeatable way to earn Cash?",
+        "answer": "Drive and fight zombies with a car you can use consistently. Compare the displayed payout and full time per attempt, then improve the limitation that repeatedly ends your runs."
+      },
+      {
+        "question": "Is the farthest run always the best Cash farm?",
+        "answer": "Compare actual Cash and total session time. Distance is only one contributor, and rebuilding or unreliable attempts can change which setup is more useful for repeated play."
+      },
+      {
+        "question": "Should I buy weapons or fuel first?",
+        "answer": "Use the repeated failure: fuel when the tank stops the attempt, weapon placement when targets pass untouched, and handling when the car cannot drive consistently. Test one change before another purchase."
+      },
+      {
+        "question": "Can codes replace Cash farming?",
+        "answer": "Codes can provide a limited bonus when available. Check the current report and account requirements, then separate those claims from recurring driving income in your notes."
+      },
+      {
+        "question": "Is there a fixed Cash-per-minute target?",
+        "answer": "No target is promised here. Use the payout and elapsed time from your own sessions to compare available cars. Keep event rewards, code claims and different timing methods separate."
+      }
+    ],
+    "relatedSlugs": [
+      "car-ideas",
+      "skills",
+      "codes"
+    ],
+    "lastReviewed": "2026-10-15"
   }
 ]

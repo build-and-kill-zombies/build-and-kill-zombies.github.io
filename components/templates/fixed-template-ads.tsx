@@ -12,7 +12,8 @@ function findAnchor(name: string): HTMLElement | null {
 
 /** Mounts ad components into the anchor divs rendered inside the fixed-template HTML. */
 export function FixedTemplateAds() {
-  const [anchors, setAnchors] = useState(() => ({ banner: findAnchor("banner"), native: findAnchor("native") }));
+  // Match the server's empty initial render; discover DOM anchors after hydration.
+  const [anchors, setAnchors] = useState<{ banner: HTMLElement | null; native: HTMLElement | null }>({ banner: null, native: null });
 
   useEffect(() => {
     // Re-check after hydration settles: if hydration recovery re-created the

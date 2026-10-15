@@ -38,7 +38,8 @@ function articleInner(page: SeoPageDefinition): string {
       : "";
     const table = section.table ? renderTable(section.table) : "";
     const links = section.links?.length ? renderLinks(section.links) : "";
-    return `<section id="${esc(section.id)}"><h2>${esc(section.heading)}</h2>${intro}${paragraphs}${bullets}${subsections}${steps}${table}${links}</section>`;
+    const layouts = (section.layouts ?? []).map((layout) => `<figure class="vehicle-layout"><figcaption><b>${esc(layout.name)}</b><small>Illustrative layout / not an in-game screenshot</small></figcaption><p class="layout-direction">↑ Front / direction of travel</p><div class="vehicle-grid">${layout.rows.flat().map((cell) => `<span>${esc(cell)}</span>`).join("")}</div><p>${esc(layout.note)}</p></figure>`).join("");
+    return `<section id="${esc(section.id)}"><h2>${esc(section.heading)}</h2>${intro}${paragraphs}${bullets}${subsections}${steps}${table}${layouts}${links}</section>`;
   }).join("");
   const faq = page.faq?.length
     ? `<section id="faq"><h2>Frequently Asked Questions</h2>${page.faq.map((item) => `<div class="faq-item"><h3>${esc(item.question)}</h3><p>${esc(item.answer)}</p></div>`).join("")}</section>`
@@ -47,7 +48,10 @@ function articleInner(page: SeoPageDefinition): string {
   const relatedHtml = related.length
     ? `<section id="related"><h2>Related Guides</h2><ul>${related.map((item) => `<li><a href="${esc(routePath(item.slug))}">${esc(item.navLabel)}</a></li>`).join("")}</ul></section>`
     : "";
-  return `${lastUpdated}${sections}${faq}${relatedHtml}`;
+  const references = page.references?.length
+    ? `<section id="sources"><h2>Sources</h2><ul>${page.references.map((source) => `<li><a href="${esc(source.url)}" rel="noopener noreferrer">${esc(source.label)}</a></li>`).join("")}</ul></section>`
+    : "";
+  return `${lastUpdated}${sections}${faq}${relatedHtml}${references}`;
 }
 
 export function FixedTemplateInner({ page }: { page: SeoPageDefinition }) {

@@ -160,6 +160,8 @@ export interface PageSection {
   links?: InternalLink[];
   steps?: Array<{ heading: string; description: string }>;
   table?: DataTable;
+  /** Editorial vehicle schematics, never presented as game screenshots. */
+  layouts?: Array<{ name: string; rows: string[][]; note: string }>;
 }
 
 export interface FaqItem {
@@ -195,6 +197,7 @@ export interface SeoPageDefinition {
   parentSlug?: string | null;
   wordCountTarget?: number;
   sourceNotes?: string[];
+  references?: Array<{ label: string; url: string }>;
   factsStatus?: "skeleton" | "verified";
   hero: {
     eyebrow?: string;

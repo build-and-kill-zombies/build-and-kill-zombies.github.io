@@ -45,7 +45,8 @@ export function FixedTemplateHome({ home }: { home: HomePageDefinition }) {
   const links: InternalLink[] = visibleCorePages
     .filter((page) => page.slug.replace(/^\/+|\/+$/g, ""))
     .map((page) => ({ slug: page.slug, label: page.navLabel }));
-  const entries = links.map((link) => {
+  // The existing home cards are editorial content, independent of the growing navigation.
+  const entries = links.filter((link) => Object.hasOwn(CARD_TEXTS, link.slug)).map((link) => {
     const slug = link.slug.replace(/^\/+|\/+$/g, "");
     return {
       href: routePath(link.slug),

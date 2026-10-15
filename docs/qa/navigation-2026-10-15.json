@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "menu": "PASS",
+      "keyboard": "PASS",
+      "all10Reachable": true,
+      "overflow": false,
+      "panel": {
+        "left": 25,
+        "right": 295,
+        "top": 109,
+        "bottom": 367
+      }
+    },
+    {
+      "width": 375,
+      "menu": "PASS",
+      "keyboard": "PASS",
+      "all10Reachable": true,
+      "overflow": false,
+      "panel": {
+        "left": 25,
+        "right": 350,
+        "top": 109,
+        "bottom": 367
+      }
+    },
+    {
+      "width": 390,
+      "menu": "PASS",
+      "keyboard": "PASS",
+      "all10Reachable": true,
+      "overflow": false,
+      "panel": {
+        "left": 25,
+        "right": 365,
+        "top": 109,
+        "bottom": 367
+      }
+    },
+    {
+      "width": 768,
+      "menu": "PASS",
+      "keyboard": "PASS",
+      "all10Reachable": true,
+      "overflow": false,
+      "panel": {
+        "left": 503,
+        "right": 743,
+        "top": 79,
+        "bottom": 409
+      }
+    },
+    {
+      "width": 1024,
+      "menu": "PASS",
+      "keyboard": "PASS",
+      "all10Reachable": true,
+      "overflow": false,
+      "panel": {
+        "left": 759,
+        "right": 999,
+        "top": 79,
+        "bottom": 321
+      }
+    },
+    {
+      "width": 1280,
+      "menu": "PASS",
+      "keyboard": "PASS",
+      "all10Reachable": true,
+      "overflow": false,
+      "panel": {
+        "left": 909,
+        "right": 1149,
+        "top": 79,
+        "bottom": 321
+      }
+    },
+    {
+      "width": 1440,
+      "menu": "PASS",
+      "keyboard": "PASS",
+      "all10Reachable": true,
+      "overflow": false,
+      "panel": {
+        "left": 989,
+        "right": 1229,
+        "top": 79,
+        "bottom": 321
+      }
+    }
+  ],
+  "navigationClicks": 20,
+  "activeStates": "PASS",
+  "headersAndFooters": "PASS",
+  "zoomEquivalent": "PASS",
+  "pageErrors": []
+}

@@ -1,0 +1,59 @@
+{
+  "matrix": [
+    {
+      "width": 320,
+      "pages": 11,
+      "http": "PASS",
+      "overflow": "PASS",
+      "adMounts": "PASS"
+    },
+    {
+      "width": 375,
+      "pages": 11,
+      "http": "PASS",
+      "overflow": "PASS",
+      "adMounts": "PASS"
+    },
+    {
+      "width": 390,
+      "pages": 11,
+      "http": "PASS",
+      "overflow": "PASS",
+      "adMounts": "PASS"
+    },
+    {
+      "width": 768,
+      "pages": 11,
+      "http": "PASS",
+      "overflow": "PASS",
+      "adMounts": "PASS"
+    },
+    {
+      "width": 1024,
+      "pages": 11,
+      "http": "PASS",
+      "overflow": "PASS",
+      "adMounts": "PASS"
+    },
+    {
+      "width": 1280,
+      "pages": 11,
+      "http": "PASS",
+      "overflow": "PASS",
+      "adMounts": "PASS"
+    },
+    {
+      "width": 1440,
+      "pages": 11,
+      "http": "PASS",
+      "overflow": "PASS",
+      "adMounts": "PASS"
+    }
+  ],
+  "documentsChecked": 77,
+  "adRequestsPerDocument": 3,
+  "adScriptsPerSlot": 1,
+  "resizeInitialization": "PASS",
+  "runtimeErrors": 0,
+  "externalScripts": "Mocked empty responses; actual third-party creatives/network not verified"
+}

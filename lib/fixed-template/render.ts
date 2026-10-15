@@ -55,6 +55,7 @@ export function renderTable(table: DataTable): string {
 /** Shared styles for real article content (tables, lists, link chips) not present in the approved template CSS. */
 export const CONTENT_CSS = `
 .layout article h3,.doc-section h3{font-size:20px;margin:24px 0 8px}
+.layout article{min-width:0}
 .layout article table,.doc-section table{width:100%;border-collapse:collapse;font-size:14px;background:#fff;border-radius:14px;overflow:hidden}
 .layout article th,.layout article td,.doc-section th,.doc-section td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top;line-height:1.5}
 .layout article th,.doc-section th{background:#EFF4FF;font-weight:800}
@@ -92,15 +93,46 @@ export const CONTENT_CSS = `
 .nav-link{flex:0 0 auto;white-space:nowrap}
 body{overflow-x:hidden}
 @media(max-width:480px){.brand{font-size:12px;padding:0 6px}.nav-link{padding:9px 11px;font-size:12px}}
+.floating .nav{overflow:visible;align-items:center;flex-shrink:0}
+.floating .nav-inner{flex-wrap:wrap;row-gap:8px}
+.nav-menu{position:relative}
+.nav-menu summary{cursor:pointer;list-style:none;display:block;min-height:40px}
+.nav-menu summary::-webkit-details-marker{display:none}
+.nav-menu summary.contains-current{box-shadow:inset 0 0 0 1px var(--accent)}
+.nav-menu-panel{position:absolute;right:0;top:calc(100% + 12px);width:240px;max-height:65vh;overflow-y:auto;background:#F8FAFF;border:1px solid var(--line);border-radius:20px;padding:10px;box-shadow:0 18px 40px #2E488C33;z-index:60}
+.nav-menu-panel .nav-link{display:block;white-space:normal;min-height:44px}
+.nav-menu-panel .nav-copy,.nav-mobile-label{display:none}
+.floating a:focus-visible,.floating summary:focus-visible{outline:3px solid #2563EB;outline-offset:3px}
+.fixed-template-header{position:sticky;top:18px;z-index:50}
+.fixed-template-header .floating{position:relative;top:0;overflow:visible}
+.vehicle-layout{margin:20px 0;padding:18px;background:#EFF4FF;border:1px solid var(--line);border-radius:20px}
+.vehicle-layout figcaption b,.vehicle-layout figcaption small{display:block}
+.vehicle-layout figcaption small{font-size:12px;color:var(--muted);margin-top:4px}
+.vehicle-layout .layout-direction{font-size:13px;font-weight:800;text-align:center}
+.vehicle-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;max-width:360px;margin:auto}
+.vehicle-grid span{display:flex;align-items:center;justify-content:center;min-height:45px;padding:6px 3px;border:1px solid #CDD9EE;background:#fff;border-radius:9px;font-size:12px;text-align:center;overflow-wrap:anywhere}
+.layout article #sources a{color:#1D4ED8;text-decoration:underline;text-underline-offset:3px}
+@media(min-width:768px) and (max-width:1023px){.floating .nav-primary-3,.floating .nav-primary-4{display:none}.nav-menu-panel .nav-copy-3,.nav-menu-panel .nav-copy-4{display:block}.floating .nav-link{padding:10px 12px}}
+@media(max-width:767px){.fixed-template-header{top:8px}.fixed-template-header:has(details[open]){position:relative;top:0}.floating{border-radius:26px}.floating .brand{max-width:calc(100% - 82px);font-size:12px;padding:0 4px;gap:5px;white-space:normal}.floating .brand span{white-space:normal}.floating .nav{display:contents}.floating .nav-primary,.nav-more-label{display:none}.nav-mobile-label{display:inline}.floating .nav-menu{margin-left:auto}.floating .nav-menu[open]{width:100%;margin-left:0}.floating .nav-menu[open] summary{width:max-content;margin-left:auto}.nav-menu-panel{position:static;width:100%;max-height:55vh;margin-top:8px;box-shadow:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px}.nav-menu-panel .nav-copy{display:block}.nav-menu-panel .nav-link{padding:12px 10px;font-size:13px}.nav-menu-panel .nav-link[aria-current="page"]{background:#25233A;color:#fff}}
 `;
 
 export function templateNavLinks(nav: TemplateLink[], page: "home" | "inner", currentSlug?: string | null): string {
   const items = nav.filter((item) => item.slug.replace(/^\/+|\/+$/g, ""));
-  return items.map((item) => {
+  const primarySlugs = ["codes", "tier-list", "best-build", "car-ideas", "halloween-event"];
+  const anchor = (item: TemplateLink, extraClass = "") => {
     const slug = item.slug.replace(/^\/+|\/+$/g, "");
     const active = page === "inner" && currentSlug && slug === currentSlug.replace(/^\/+|\/+$/g, "");
-    return `<a class="nav-link${active ? " active" : ""}" href="${esc(item.href)}">${esc(item.label)}</a>`;
+    const label = slug === "halloween-event" ? "Event" : item.label;
+    return `<a class="nav-link${active ? " active" : ""}${extraClass ? ` ${extraClass}` : ""}" href="${esc(item.href)}"${active ? ' aria-current="page"' : ""}${slug === "halloween-event" ? ' aria-label="Halloween Event"' : ""}>${esc(label)}</a>`;
+  };
+  const primary = primarySlugs.flatMap((slug) => items.filter((item) => item.slug === slug));
+  const featured = primary.map((item, index) => anchor(item, `nav-primary nav-primary-${index}`)).join("");
+  const secondary = items.map((item) => {
+    const index = primary.indexOf(item);
+    return anchor(item, index >= 0 ? `nav-copy nav-copy-${index}` : "");
   }).join("");
+  const moreActive = items.some((item) => item.slug === currentSlug && !primary.slice(0, 3).includes(item));
+  return `${featured}<details class="nav-menu"><summary class="nav-link${moreActive ? " contains-current" : ""}" aria-label="More guides and all pages"><span class="nav-more-label">More</span><span class="nav-mobile-label">Menu</span> <span aria-hidden="true">☰</span></summary><div class="nav-menu-panel">${secondary}</div></details>`;
 }
 
 function brandInner(gameName: string, skin: string, page: "home" | "inner", logoUrl?: string | null): string {
@@ -286,6 +318,7 @@ export function renderFixedTemplate(input: FixedTemplateInput): string {
   html = replaceBrand(html, brandInner(input.gameName, pack.skin, input.page, input.logoUrl), input.homeHref);
   html = html.replaceAll('href="home.html"', `href="${esc(input.homeHref)}"`);
   html = replaceNav(html, templateNavLinks(input.nav, input.page, input.currentSlug));
+  html = html.replace('<nav class="floating">', '<nav class="floating" aria-label="Primary navigation">');
   html = replaceCrumbs(html, input.homeHref, currentLabel);
   html = html.replace(/href="inner\.html#([^"]+)"/g, (_match, id: string) => {
     const clean = (item: { slug: string }) => item.slug.replace(/^\/+|\/+$/g, "");
@@ -352,7 +385,7 @@ export function splitFixedChrome(body: string, skin: string): { chrome: string; 
     : skin === "resource"
       ? /^<header[\s\S]*?<\/header>\s*<div class="navbar">[\s\S]*?<\/div>/
       : skin === "glass"
-        ? /^<nav class="floating">[\s\S]*?<\/nav>/
+        ? /^<nav class="floating"[^>]*>[\s\S]*?<\/nav>/
         : /^<header[\s\S]*?<\/header>/;
   const match = source.match(pattern);
   if (!match) return { chrome: "", rest: source };
