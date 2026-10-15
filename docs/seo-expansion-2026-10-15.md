@@ -66,7 +66,7 @@ Title 长度依次为 50 / 49 / 47 / 45 / 41；Description 为 150 / 146 / 150 /
 
 ## 6. 导航、广告和 QA
 
-桌面 ≥1024：Codes / Tier List / Best Build / Car Ideas / Event + More；768–1023：三个主入口 + More；小屏：一个可见 Menu，展开十个入口。原生 details 支持 Enter/Space，另支持 Escape、外部点击关闭与清晰焦点；手机展开时菜单占据正常文档空间。
+桌面 ≥1024：Codes / Tier List / Best Build / Car Ideas / Event / Weapons / Skills / Earn Cash；More 仅保留 Beginner Guide / Bosses；768–1023：三个主入口 + More；小屏：一个可见 Menu，展开十个入口。原生 details 支持 Enter/Space，另支持 Escape、外部点击关闭与清晰焦点；手机展开时菜单占据正常文档空间。
 
 | 检查 | 结果 |
 | --- | --- |

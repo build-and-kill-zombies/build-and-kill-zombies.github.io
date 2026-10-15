@@ -1,0 +1,170 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "primary": [],
+      "secondary": [
+        "Codes",
+        "Tier List",
+        "Best Build",
+        "Beginner Guide",
+        "Bosses",
+        "Car Ideas",
+        "Event",
+        "Weapons",
+        "Skills",
+        "Earn Cash"
+      ],
+      "overflow": false,
+      "sameRow": true,
+      "navWidth": 292,
+      "brandRight": 189.515625,
+      "firstLinkLeft": 0,
+      "clipped": false,
+      "escape": true
+    },
+    {
+      "width": 375,
+      "primary": [],
+      "secondary": [
+        "Codes",
+        "Tier List",
+        "Best Build",
+        "Beginner Guide",
+        "Bosses",
+        "Car Ideas",
+        "Event",
+        "Weapons",
+        "Skills",
+        "Earn Cash"
+      ],
+      "overflow": false,
+      "sameRow": true,
+      "navWidth": 347,
+      "brandRight": 189.515625,
+      "firstLinkLeft": 0,
+      "clipped": false,
+      "escape": true
+    },
+    {
+      "width": 390,
+      "primary": [],
+      "secondary": [
+        "Codes",
+        "Tier List",
+        "Best Build",
+        "Beginner Guide",
+        "Bosses",
+        "Car Ideas",
+        "Event",
+        "Weapons",
+        "Skills",
+        "Earn Cash"
+      ],
+      "overflow": false,
+      "sameRow": true,
+      "navWidth": 362,
+      "brandRight": 189.515625,
+      "firstLinkLeft": 0,
+      "clipped": false,
+      "escape": true
+    },
+    {
+      "width": 768,
+      "primary": [
+        "Codes",
+        "Tier List",
+        "Best Build"
+      ],
+      "secondary": [
+        "Beginner Guide",
+        "Bosses",
+        "Car Ideas",
+        "Event",
+        "Weapons",
+        "Skills",
+        "Earn Cash"
+      ],
+      "overflow": false,
+      "sameRow": true,
+      "navWidth": 740,
+      "brandRight": 217.5625,
+      "firstLinkLeft": 442.953125,
+      "clipped": false,
+      "escape": true
+    },
+    {
+      "width": 1024,
+      "primary": [
+        "Codes",
+        "Tier List",
+        "Best Build",
+        "Car Ideas",
+        "Event",
+        "Weapons",
+        "Skills",
+        "Earn Cash"
+      ],
+      "secondary": [
+        "Beginner Guide",
+        "Bosses"
+      ],
+      "overflow": false,
+      "sameRow": true,
+      "navWidth": 996,
+      "brandRight": 237.640625,
+      "firstLinkLeft": 288.4375,
+      "clipped": false,
+      "escape": true
+    },
+    {
+      "width": 1280,
+      "primary": [
+        "Codes",
+        "Tier List",
+        "Best Build",
+        "Car Ideas",
+        "Event",
+        "Weapons",
+        "Skills",
+        "Earn Cash"
+      ],
+      "secondary": [
+        "Beginner Guide",
+        "Bosses"
+      ],
+      "overflow": false,
+      "sameRow": true,
+      "navWidth": 1040,
+      "brandRight": 343.640625,
+      "firstLinkLeft": 438.4375,
+      "clipped": false,
+      "escape": true
+    },
+    {
+      "width": 1440,
+      "primary": [
+        "Codes",
+        "Tier List",
+        "Best Build",
+        "Car Ideas",
+        "Event",
+        "Weapons",
+        "Skills",
+        "Earn Cash"
+      ],
+      "secondary": [
+        "Beginner Guide",
+        "Bosses"
+      ],
+      "overflow": false,
+      "sameRow": true,
+      "navWidth": 1040,
+      "brandRight": 423.640625,
+      "firstLinkLeft": 518.4375,
+      "clipped": false,
+      "escape": true
+    }
+  ],
+  "errors": []
+}

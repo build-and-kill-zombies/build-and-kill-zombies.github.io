@@ -112,13 +112,13 @@ body{overflow-x:hidden}
 .vehicle-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;max-width:360px;margin:auto}
 .vehicle-grid span{display:flex;align-items:center;justify-content:center;min-height:45px;padding:6px 3px;border:1px solid #CDD9EE;background:#fff;border-radius:9px;font-size:12px;text-align:center;overflow-wrap:anywhere}
 .layout article #sources a{color:#1D4ED8;text-decoration:underline;text-underline-offset:3px}
-@media(min-width:768px) and (max-width:1023px){.floating .nav-primary-3,.floating .nav-primary-4{display:none}.nav-menu-panel .nav-copy-3,.nav-menu-panel .nav-copy-4{display:block}.floating .nav-link{padding:10px 12px}}
+@media(min-width:768px) and (max-width:1023px){.floating .nav-primary-extra{display:none}.nav-menu-panel .nav-copy-extra{display:block}.floating .nav-link{padding:10px 12px}}
 @media(max-width:767px){.fixed-template-header{top:8px}.fixed-template-header:has(details[open]){position:relative;top:0}.floating{border-radius:26px}.floating .brand{max-width:calc(100% - 82px);font-size:12px;padding:0 4px;gap:5px;white-space:normal}.floating .brand span{white-space:normal}.floating .nav{display:contents}.floating .nav-primary,.nav-more-label{display:none}.nav-mobile-label{display:inline}.floating .nav-menu{margin-left:auto}.floating .nav-menu[open]{width:100%;margin-left:0}.floating .nav-menu[open] summary{width:max-content;margin-left:auto}.nav-menu-panel{position:static;width:100%;max-height:55vh;margin-top:8px;box-shadow:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px}.nav-menu-panel .nav-copy{display:block}.nav-menu-panel .nav-link{padding:12px 10px;font-size:13px}.nav-menu-panel .nav-link[aria-current="page"]{background:#25233A;color:#fff}}
 `;
 
 export function templateNavLinks(nav: TemplateLink[], page: "home" | "inner", currentSlug?: string | null): string {
   const items = nav.filter((item) => item.slug.replace(/^\/+|\/+$/g, ""));
-  const primarySlugs = ["codes", "tier-list", "best-build", "car-ideas", "halloween-event"];
+  const primarySlugs = ["codes", "tier-list", "best-build", "car-ideas", "halloween-event", "weapons", "skills", "how-to-get-cash-fast"];
   const anchor = (item: TemplateLink, extraClass = "") => {
     const slug = item.slug.replace(/^\/+|\/+$/g, "");
     const active = page === "inner" && currentSlug && slug === currentSlug.replace(/^\/+|\/+$/g, "");
@@ -126,12 +126,12 @@ export function templateNavLinks(nav: TemplateLink[], page: "home" | "inner", cu
     return `<a class="nav-link${active ? " active" : ""}${extraClass ? ` ${extraClass}` : ""}" href="${esc(item.href)}"${active ? ' aria-current="page"' : ""}${slug === "halloween-event" ? ' aria-label="Halloween Event"' : ""}>${esc(label)}</a>`;
   };
   const primary = primarySlugs.flatMap((slug) => items.filter((item) => item.slug === slug));
-  const featured = primary.map((item, index) => anchor(item, `nav-primary nav-primary-${index}`)).join("");
+  const featured = primary.map((item, index) => anchor(item, `nav-primary${index >= 3 ? " nav-primary-extra" : ""}`)).join("");
   const secondary = items.map((item) => {
     const index = primary.indexOf(item);
-    return anchor(item, index >= 0 ? `nav-copy nav-copy-${index}` : "");
+    return anchor(item, index >= 0 ? `nav-copy${index >= 3 ? " nav-copy-extra" : ""}` : "");
   }).join("");
-  const moreActive = items.some((item) => item.slug === currentSlug && !primary.slice(0, 3).includes(item));
+  const moreActive = items.some((item) => item.slug === currentSlug && !primary.includes(item));
   return `${featured}<details class="nav-menu"><summary class="nav-link${moreActive ? " contains-current" : ""}" aria-label="More guides and all pages"><span class="nav-more-label">More</span><span class="nav-mobile-label">Menu</span> <span aria-hidden="true">☰</span></summary><div class="nav-menu-panel">${secondary}</div></details>`;
 }
 
